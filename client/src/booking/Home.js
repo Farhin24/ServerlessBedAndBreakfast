@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { allHotels } from "../actions/hotel";
 import SmallCard from "../components/cards/SmallCard";
-import Search from "../components/forms/Search";
 
 const Home = () => {
   const [hotels, setHotels] = useState([]);

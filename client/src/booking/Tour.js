@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { allTours } from "../actions/hotel";
-import Search from "../components/forms/Search";
+
 import TourCard from "../components/cards/TourCard";
 
 const Tour = () => {

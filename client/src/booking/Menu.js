@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { allMenu } from "../actions/hotel";
-import Search from "../components/forms/Search";
 import MenuCard from "../components/cards/MenuCard";
 import { useSelector } from "react-redux";
 const Menu = () => {
