@@ -3,6 +3,8 @@ import { useStore } from "react-redux";
 import { hotelById, diffDays, isAlreadyBooked } from "../actions/hotel";
 import moment from "moment";
 import { useSelector } from "react-redux";
+import { bookRoom } from "../actions/hotel";
+import { toast } from "react-toastify";
 
 const ViewHotel = ({ match, history }) => {
   const [hotel, setHotel] = useState({});
@@ -15,15 +17,6 @@ const ViewHotel = ({ match, history }) => {
   useEffect(() => {
     loadHotel();
   }, []);
-
-  // useEffect(() => {
-  //   if (auth && auth.token) {
-  //     isAlreadyBooked(auth.token, match.params.hotelId).then((res) => {
-  //       // console.log(res);
-  //       if (res.data.ok) setAlreadyBooked(true);
-  //     });
-  //   }
-  // }, []);
 
   const loadHotel = async () => {
     let res = await hotelById(match.params.hotelId);
@@ -40,15 +33,25 @@ const ViewHotel = ({ match, history }) => {
 
     setLoading(true);
     if (!auth) history.push("/login");
-    // console.log(auth.token, match.params.hotelId);
-    // let res = await getSessionId(auth.token, match.params.hotelId);
-    // console.log("get sessionid resposne", res.data.sessionId);
-    // const stripe = await loadStripe(process.env.REACT_APP_STRIPE_KEY);
-    // stripe
-    //   .redirectToCheckout({
-    //     sessionId: res.data.sessionId,
-    //   })
-    //   .then((result) => console.log(result));
+    const userId = localStorage.getItem("userid");
+    const email = localStorage.getItem("email");
+    const bookingData = {
+      userid: userId,
+      roomid: hotel.id,
+      email,
+      To: hotel.to,
+      From: hotel.from,
+    };
+
+    const response = await bookRoom(bookingData);
+    if (response.status === 200) {
+      setLoading(false);
+      toast.success("Booking successful");
+      history.push("/");
+    } else {
+      setLoading(false);
+      toast.error("Booking failed");
+    }
   };
 
   return (
