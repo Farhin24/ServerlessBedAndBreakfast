@@ -18,9 +18,11 @@ import Graph from "./Analytics/Graph";
 import Notifications from "./user/Notifications";
 import Cipher from "./auth/Cipher";
 import Visualizations from "./auth/Visualization";
+import LexChat from "react-lex-plus";
 
 function App() {
   return (
+    <>
     <BrowserRouter>
       <TopNav />
       <ToastContainer position="top-center" />
@@ -39,6 +41,20 @@ function App() {
         <Route exact path="/hotel/:hotelId" component={ViewHotel} />
       </Switch>
     </BrowserRouter>
+     <LexChat
+     botName="HotelAssist"
+     IdentityPoolId="us-east-1:53305051-7ef5-4bd4-9208-118b97c3e4a4"
+     placeholder="Placeholder text"
+     backgroundColor="#FFFFFF"
+     height={430}
+     region="us-east-1"
+     headerText="Chat with our awesome bot"
+     headerStyle={{ backgroundColor: "#ABD5D9", fontSize: "30px" }}
+     greeting={
+       "Hello, how can I help? You can say things like 'help' to get more info"
+     }
+   />;
+   </>
   );
 }
 
