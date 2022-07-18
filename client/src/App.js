@@ -15,6 +15,7 @@ import Menu from "./booking/Menu";
 import Tour from "./booking/Tour";
 import Securityquestion from "./auth/Securityquestion";
 import Graph from "./Analytics/Graph";
+import Cipher from "./auth/Cipher";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/graph" component={Graph} />
+        <Route exact path="/cipher" component={Cipher} />
         <Route exact path="/securityquestion" component={Securityquestion} />
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
 

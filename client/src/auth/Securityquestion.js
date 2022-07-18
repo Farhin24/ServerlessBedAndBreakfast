@@ -1,10 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-// import { useNavigate } from "react-router-dom";
 
 const Securityquestion = ({ history }) => {
-  // let navigate = useNavigate();
-
   const [birthplaceanswer, setBirthPlaceAnswer] = useState("");
   const [foodanswer, setFoodAnswer] = useState("");
   const [coloranswer, setColorAnswer] = useState("");
@@ -35,7 +32,7 @@ const Securityquestion = ({ history }) => {
           if (!response?.data?.message) {
             error = "";
             setError("");
-            history.push("/");
+            history.push("/cipher");
           }
         },
         (error) => {
