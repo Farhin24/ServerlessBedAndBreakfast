@@ -37,6 +37,11 @@ const TopNav = () => {
           Dashboard
         </Link>
       )}
+        {auth !== null && (
+        <Link className="nav-link" params={{ auth: auth }} to="/feedback">
+          Feedback
+        </Link>
+      )}
       {auth !== null && (
         <Link className="nav-link" params={{ auth: auth }} to="/notifications">
           Notifications
