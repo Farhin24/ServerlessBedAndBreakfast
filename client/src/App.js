@@ -17,6 +17,7 @@ import Securityquestion from "./auth/Securityquestion";
 import Graph from "./Analytics/Graph";
 import Notifications from "./user/Notifications";
 import Cipher from "./auth/Cipher";
+import Visualizations from "./auth/Visualization";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route exact path="/securityquestion" component={Securityquestion} />
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
         <PrivateRoute exact path="/notifications" component={Notifications} />
+        <PrivateRoute exact path="/visualizations" component={Visualizations} />
         <Route exact path="/hotel/:hotelId" component={ViewHotel} />
       </Switch>
     </BrowserRouter>
