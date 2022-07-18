@@ -15,6 +15,7 @@ import Menu from "./booking/Menu";
 import Tour from "./booking/Tour";
 import Securityquestion from "./auth/Securityquestion";
 import Graph from "./Analytics/Graph";
+import Notifications from "./user/Notifications";
 import Cipher from "./auth/Cipher";
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
         <Route exact path="/cipher" component={Cipher} />
         <Route exact path="/securityquestion" component={Securityquestion} />
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
-
+        <PrivateRoute exact path="/notifications" component={Notifications} />
         <Route exact path="/hotel/:hotelId" component={ViewHotel} />
       </Switch>
     </BrowserRouter>

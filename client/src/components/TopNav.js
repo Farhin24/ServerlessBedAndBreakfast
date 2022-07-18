@@ -37,6 +37,18 @@ const TopNav = () => {
           Dashboard
         </Link>
       )}
+      {auth !== null && (
+        <Link className="nav-link" params={{ auth: auth }} to="/notifications">
+          Notifications
+        </Link>
+      )}
+
+      <a
+        href="https://datastudio.google.com/embed/reporting/4c0f02d9-6bef-4f97-907c-206f5a8ccb8b/page/tEnnC"
+        target="_blank"
+      >
+        Visualization
+      </a>
 
       {auth !== null && (
         <a className="nav-link pointer" href="#" onClick={logout}>
