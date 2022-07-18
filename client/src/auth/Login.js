@@ -20,9 +20,9 @@ const Login = ({ history }) => {
 
   const userPool = new CognitoUserPool(poolData);
 
-  const [email, setEmail] = useState("bijit12cse@gmail.com");
+  const [email, setEmail] = useState("");
   const [emailerror, setEmailerror] = useState();
-  const [password, setPassword] = useState("Bijit@1994");
+  const [password, setPassword] = useState("");
 
   const validatEmail = (value) => {
     const regexforemail =
