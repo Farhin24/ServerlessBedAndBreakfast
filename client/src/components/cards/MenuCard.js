@@ -3,7 +3,8 @@ import { useHistory, Link } from "react-router-dom";
 import { EditOutlined, DeleteOutlined } from "@ant-design/icons";
 import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-
+import { bookMeal } from "../../actions/hotel";
+import { toast } from "react-toastify";
 const MenuCard = ({
   m,
   handleHotelDelete = (f) => f,
@@ -16,8 +17,30 @@ const MenuCard = ({
 
   const { auth } = useSelector((state) => ({ ...state }));
 
-  const handleClick = (e) => {
+  const handleClick = async (e) => {
     e.preventDefault();
+    const email = localStorage.getItem("email");
+    const userid = localStorage.getItem("userid");
+
+    const orderData = {
+      email,
+      image: m.image,
+      userid,
+      description: m.description,
+      id: m.id,
+      price: m.price,
+      title: m.title,
+    };
+    const response = await bookMeal(orderData);
+    console.log(response);
+    if (response.status === 200) {
+      setLoading(false);
+      toast.success("Order successful");
+      history.push("/");
+    } else {
+      setLoading(false);
+      toast.error("Order failed");
+    }
   };
 
   return (
