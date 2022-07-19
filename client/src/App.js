@@ -17,8 +17,7 @@ import Securityquestion from "./auth/Securityquestion";
 import Graph from "./Analytics/Graph";
 import Notifications from "./user/Notifications";
 import Cipher from "./auth/Cipher";
-import Visualizations from "./auth/Visualization";
-import LexChat from "react-lex-plus";
+import Feedback from "./user/feedback";
 
 function App() {
 
@@ -82,14 +81,13 @@ function App() {
         <Route exact path="/securityquestion" component={Securityquestion} />
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
         <PrivateRoute exact path="/notifications" component={Notifications} />
-        <PrivateRoute exact path="/visualizations" component={Visualizations} />
+        <PrivateRoute exact path="/feedback" component={Feedback} />
         <Route exact path="/hotel/:hotelId" component={ViewHotel} />
       </Switch>
     </BrowserRouter>
     {localStorage.getItem("userid") && localStorage.getItem("userid") ? loginBot() : loginBot()}
-   </>
+    </>
   );
-
-  }
+}
 
 export default App;

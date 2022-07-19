@@ -41,6 +41,9 @@ const ViewHotel = ({ match, history }) => {
       email,
       To: hotel.to,
       From: hotel.from,
+      image: hotel.image,
+      description: hotel.description,
+      title: hotel.title,
     };
 
     const response = await bookRoom(bookingData);

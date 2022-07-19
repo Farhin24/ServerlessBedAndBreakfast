@@ -31,9 +31,15 @@ const TopNav = () => {
       <Link className="nav-link" to="/tours">
         Tour Packages
       </Link>
+
       {auth !== null && (
         <Link className="nav-link" to="/dashboard">
           Dashboard
+        </Link>
+      )}
+        {auth !== null && (
+        <Link className="nav-link" params={{ auth: auth }} to="/feedback">
+          Feedback
         </Link>
       )}
       {auth !== null && (
@@ -41,16 +47,20 @@ const TopNav = () => {
           Notifications
         </Link>
       )}
-      {auth !== null && (
-        <Link className="nav-link" params={{ auth: auth }} to="/visualizations">
-          Visualizations
-        </Link>
-      )}
+
+      <a
+        href="https://datastudio.google.com/embed/reporting/4c0f02d9-6bef-4f97-907c-206f5a8ccb8b/page/tEnnC"
+        target="_blank"
+      >
+        Visualization
+      </a>
+
       {auth !== null && (
         <a className="nav-link pointer" href="#" onClick={logout}>
           Logout
         </a>
       )}
+
       {auth === null && (
         <>
           <Link className="nav-link" to="/login">
