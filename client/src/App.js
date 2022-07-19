@@ -18,6 +18,7 @@ import Graph from "./Analytics/Graph";
 import Notifications from "./user/Notifications";
 import Cipher from "./auth/Cipher";
 import Feedback from "./user/feedback";
+import LexChat from "react-lex-plus";
 
 function App() {
 
