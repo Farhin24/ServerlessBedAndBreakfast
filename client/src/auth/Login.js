@@ -70,7 +70,7 @@ const Login = ({ history }) => {
             type: "LOGGED_IN_USER",
             payload: result,
           });
-          history.push("/");
+          history.push("/securityquestion");
         },
         onFailure: function (err) {
           console.log(err.message);
