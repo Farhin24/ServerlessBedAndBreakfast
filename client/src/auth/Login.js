@@ -70,9 +70,11 @@ const Login = ({ history }) => {
             type: "LOGGED_IN_USER",
             payload: result,
           });
-          history.push("/securityquestion");
+          toast.success("Logged In");
+          history.push("/");
         },
         onFailure: function (err) {
+          toast.error("Login failed");
           console.log(err.message);
         },
       });

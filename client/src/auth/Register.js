@@ -104,7 +104,7 @@ const Register = ({ history }) => {
   };
 
   const validateKey = (value) => {
-    const regexforkey =  /^([1-9])$/;
+    const regexforkey = /^([1-9])$/;
     if (regexforkey.test(value)) {
       setKey(value);
       setKeyerror(null);
@@ -172,18 +172,18 @@ const Register = ({ history }) => {
               console.log("user name is " + cognitoUser.getUsername());
             });
 
-            axios
+          axios
             .post(
               "https://us-central1-serverlesbandb.cloudfunctions.net/ceaserkeyregister",
               {
                 email,
-                key
+                key,
               }
             )
             .then(() => {
               console.log("key is " + key);
             });
-
+          toast.success("Registration successful");
           history.push("/login");
 
           console.log("user name is " + cognitoUser.getUsername());
@@ -279,10 +279,7 @@ const Register = ({ history }) => {
               </div>
               {coloranswererror && <p>{coloranswererror}</p>}
               <div className="form-group mb-3">
-                <label className="form-label">
-                  {" "}
-                  Enter your cipher key:
-                </label>
+                <label className="form-label"> Enter your cipher key:</label>
                 <input
                   type="text"
                   className="form-control"
