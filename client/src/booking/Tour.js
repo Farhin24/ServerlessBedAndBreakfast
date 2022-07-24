@@ -3,6 +3,7 @@ import { allTours } from "../actions/hotel";
 import { useSelector, useDispatch } from "react-redux";
 import LexChat from "react-lex-plus";
 import TourCard from "../components/cards/TourCard";
+import { Link } from "react-router-dom";
 
 const Tour = () => {
   const [tour, setTour] = useState([]);
@@ -55,6 +56,9 @@ const Tour = () => {
       <div className="container-fluid bg-secondary p-5 text-center">
         <h1>Tour Packages</h1>
       </div>
+      <Link className="nav-link" to="/suggesttour" style={{marginLeft:"600px",fontSize:"20px"}}>
+       Suggest me a Tour! 
+      </Link>
       <div className="container-fluid">
         <br />
         {tour.map((m) => (
