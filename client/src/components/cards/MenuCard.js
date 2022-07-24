@@ -85,7 +85,7 @@ const MenuCard = ({
                     ? "Loading..."
                     : // : alreadyBooked
                     // ? "Already Booked"
-                    auth && auth.idToken
+                    auth && auth
                     ? "Order Now"
                     : "Login to Order"}
                 </button>

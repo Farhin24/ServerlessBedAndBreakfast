@@ -11,8 +11,8 @@ import {
 } from "amazon-cognito-identity-js";
 
 var poolData = {
-  UserPoolId: 'us-east-1_rIytU64lO',
-  ClientId: '6qbs04aqbt3htai8l8pikfbivl',
+  UserPoolId: "us-east-1_rIytU64lO",
+  ClientId: "6qbs04aqbt3htai8l8pikfbivl",
 };
 const userPool = new CognitoUserPool(poolData);
 
@@ -26,21 +26,22 @@ const TopNav = () => {
       type: "LOGOUT",
       payload: null,
     });
-    
+
     var email = localStorage.getItem("email");
 
-    axios.post(
-      "https://us-central1-serverlesbandb.cloudfunctions.net/userlogoutactivity",
-      {
-        email
-      }
-    )
+    axios
+      .post(
+        "https://us-central1-serverlesbandb.cloudfunctions.net/userlogoutactivity",
+        {
+          email,
+        }
+      )
       .then(() => {
         console.log("Logged Out ");
 
         const currentCognitoUser = userPool.getCurrentUser();
         if (currentCognitoUser !== null) {
-            currentCognitoUser.signOut();
+          currentCognitoUser.signOut();
         }
 
         window.localStorage.removeItem("jwttoken");
@@ -48,7 +49,6 @@ const TopNav = () => {
         window.localStorage.removeItem("userid");
         window.localStorage.removeItem("cognitousername");
       });
-      
 
     history.push("/login");
   };
@@ -64,12 +64,6 @@ const TopNav = () => {
       <Link className="nav-link" to="/tours">
         Tour Packages
       </Link>
-
-      {auth !== null && (
-        <Link className="nav-link" to="/dashboard">
-          Dashboard
-        </Link>
-      )}
       {auth !== null && (
         <Link className="nav-link" params={{ auth: auth }} to="/feedback">
           Feedback

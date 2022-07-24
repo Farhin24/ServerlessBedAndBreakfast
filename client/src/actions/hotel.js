@@ -48,20 +48,6 @@ export const diffDays = (from, to) => {
   return difference;
 };
 
-export const sellerHotels = async (token) =>
-  await axios.get(`${process.env.REACT_APP_API}/seller-hotels`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  });
-
-export const deleteHotel = async (token, hotelId) =>
-  await axios.delete(`${process.env.REACT_APP_API}/delete-hotel/${hotelId}`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  });
-
 export const read = async (hotelId) =>
   await axios.get(
     `https://ay1h3z9wt0.execute-api.us-east-1.amazonaws.com/prod/room/${hotelId}`
@@ -71,31 +57,3 @@ export const hotelById = async (hotelId) =>
   await axios.get(
     `https://ay1h3z9wt0.execute-api.us-east-1.amazonaws.com/prod/room/${hotelId}`
   );
-
-export const updateHotel = async (token, data, hotelId) =>
-  await axios.put(
-    `${process.env.REACT_APP_API}/update-hotel/${hotelId}`,
-    data,
-    {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    }
-  );
-
-export const userHotelBookings = async (token) =>
-  await axios.get(`${process.env.REACT_APP_API}/user-hotel-bookings`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  });
-
-export const isAlreadyBooked = async (token, hotelId) =>
-  await axios.get(`${process.env.REACT_APP_API}/is-already-booked/${hotelId}`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  });
-
-export const searchListings = async (query) =>
-  await axios.post(`${process.env.REACT_APP_API}/search-listings`, query);
