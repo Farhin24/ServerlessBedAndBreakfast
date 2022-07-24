@@ -25,7 +25,7 @@ const Tour = () => {
         backgroundColor="##D9D9D9"
         height={430}
         region="us-east-1"
-        headerText="Online Support (Dedicated User)"
+        headerText="Online Support"
         sessionAttributes={{ userid: localStorage.getItem("userid") }}
         headerStyle={{ backgroundColor: "#000000", fontSize: "30px" }}
         greeting={"Hello, how can I help?"}
