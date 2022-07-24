@@ -26,7 +26,7 @@ const ViewHotel = ({ match, history }) => {
   const handleClick = async (e) => {
     e.preventDefault();
 
-    if (!auth || !auth.idToken) {
+    if (!auth) {
       history.push("/login");
       return;
     }
@@ -107,7 +107,7 @@ const ViewHotel = ({ match, history }) => {
                 ? "Loading..."
                 : // : alreadyBooked
                 // ? "Already Booked"
-                auth && auth.idToken
+                auth && auth
                 ? "Book Now"
                 : "Login to Book"}
             </button>

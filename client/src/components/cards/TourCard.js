@@ -84,7 +84,7 @@ const TourCard = ({
                     ? "Loading..."
                     : // : alreadyBooked
                     // ? "Already Booked"
-                    auth && auth.idToken
+                    auth && auth
                     ? "Book Now"
                     : "Login to Order"}
                 </button>
