@@ -17,6 +17,7 @@ import Notifications from "./user/Notifications";
 import CeaserCipher from "./auth/CeaserCipher";
 import Feedback from "./user/feedback";
 import { useDispatch } from "react-redux";
+import Visualizations from "./auth/Visualization";
 
 function App() {
   const dispatch = useDispatch();
@@ -42,7 +43,8 @@ function App() {
           <Route exact path="/graph" component={Graph} />
           <Route exact path="/cipher" component={CeaserCipher} />
           <Route exact path="/securityquestion" component={Securityquestion} />
-          <PrivateRoute exact path="/notifications" component={Notifications} />
+          <Route exact path="/notifications" component={Notifications} />
+          <Route exact path="/visualization" component={Visualizations} />
           <PrivateRoute exact path="/feedback" component={Feedback} />
           <Route exact path="/hotel/:hotelId" component={ViewHotel} />
         </Switch>
