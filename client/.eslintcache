@@ -1,1 +1,1172 @@
-[{"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\index.js":"1","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\App.js":"2","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\reportWebVitals.js":"3","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\reducers\\index.js":"4","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Visualization.js":"5","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\TopNav.js":"6","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\PrivateRoute.js":"7","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Register.js":"8","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\booking\\Home.js":"9","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\booking\\Menu.js":"10","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\user\\Notifications.js":"11","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\booking\\Tour.js":"12","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\user\\Dashboard.js":"13","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Cipher.js":"14","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Securityquestion.js":"15","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\Analytics\\Graph.js":"16","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\hotels\\ViewHotel.js":"17","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Login.js":"18","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\reducers\\auth.js":"19","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\CipherBackend.js":"20","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\actions\\auth.js":"21","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\cards\\SmallCard.js":"22","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\actions\\hotel.js":"23","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\cards\\MenuCard.js":"24","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\cards\\TourCard.js":"25"},{"size":1029,"mtime":1658079837042,"results":"26","hashOfConfig":"27"},{"size":1778,"mtime":1658168768727,"results":"28","hashOfConfig":"27"},{"size":375,"mtime":1658079837042,"results":"29","hashOfConfig":"27"},{"size":180,"mtime":1658079837042,"results":"30","hashOfConfig":"27"},{"size":1173,"mtime":1658631178311,"results":"31","hashOfConfig":"27"},{"size":1832,"mtime":1658168777027,"results":"32","hashOfConfig":"27"},{"size":372,"mtime":1658079837026,"results":"33","hashOfConfig":"27"},{"size":8376,"mtime":1658079837026,"results":"34","hashOfConfig":"27"},{"size":868,"mtime":1658079837026,"results":"35","hashOfConfig":"27"},{"size":884,"mtime":1658079837026,"results":"36","hashOfConfig":"27"},{"size":962,"mtime":1658106009565,"results":"37","hashOfConfig":"27"},{"size":797,"mtime":1658079837026,"results":"38","hashOfConfig":"27"},{"size":1321,"mtime":1658079837042,"results":"39","hashOfConfig":"27"},{"size":3395,"mtime":1658156155782,"results":"40","hashOfConfig":"27"},{"size":2819,"mtime":1658169387674,"results":"41","hashOfConfig":"27"},{"size":773,"mtime":1658079837026,"results":"42","hashOfConfig":"27"},{"size":3485,"mtime":1658169488162,"results":"43","hashOfConfig":"27"},{"size":3980,"mtime":1658169488162,"results":"44","hashOfConfig":"27"},{"size":424,"mtime":1658079837042,"results":"45","hashOfConfig":"27"},{"size":878,"mtime":1658156155782,"results":"46","hashOfConfig":"27"},{"size":556,"mtime":1658079837026,"results":"47","hashOfConfig":"27"},{"size":2073,"mtime":1658079837026,"results":"48","hashOfConfig":"27"},{"size":2824,"mtime":1658169488154,"results":"49","hashOfConfig":"27"},{"size":3010,"mtime":1658169488162,"results":"50","hashOfConfig":"27"},{"size":3050,"mtime":1658169488162,"results":"51","hashOfConfig":"27"},{"filePath":"52","messages":"53","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},"1h3ope3",{"filePath":"55","messages":"56","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"57","messages":"58","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"59","messages":"60","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"61","messages":"62","errorCount":0,"fatalErrorCount":0,"warningCount":3,"fixableErrorCount":0,"fixableWarningCount":3,"source":null},{"filePath":"63","messages":"64","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"65","usedDeprecatedRules":"54"},{"filePath":"66","messages":"67","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"68","messages":"69","errorCount":0,"fatalErrorCount":0,"warningCount":4,"fixableErrorCount":0,"fixableWarningCount":0,"source":"70","usedDeprecatedRules":"54"},{"filePath":"71","messages":"72","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"73","messages":"74","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"75","usedDeprecatedRules":"54"},{"filePath":"76","messages":"77","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"78","usedDeprecatedRules":"54"},{"filePath":"79","messages":"80","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"81","messages":"82","errorCount":0,"fatalErrorCount":0,"warningCount":2,"fixableErrorCount":0,"fixableWarningCount":0,"source":"83","usedDeprecatedRules":"54"},{"filePath":"84","messages":"85","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"86","usedDeprecatedRules":"54"},{"filePath":"87","messages":"88","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"89","usedDeprecatedRules":"54"},{"filePath":"90","messages":"91","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":1,"source":"92","usedDeprecatedRules":"54"},{"filePath":"93","messages":"94","errorCount":0,"fatalErrorCount":0,"warningCount":5,"fixableErrorCount":0,"fixableWarningCount":0,"source":"95","usedDeprecatedRules":"54"},{"filePath":"96","messages":"97","errorCount":0,"fatalErrorCount":0,"warningCount":3,"fixableErrorCount":0,"fixableWarningCount":0,"source":"98","usedDeprecatedRules":"54"},{"filePath":"99","messages":"100","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"101","messages":"102","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"103","messages":"104","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"105","usedDeprecatedRules":"54"},{"filePath":"106","messages":"107","errorCount":0,"fatalErrorCount":0,"warningCount":6,"fixableErrorCount":0,"fixableWarningCount":0,"source":"108","usedDeprecatedRules":"54"},{"filePath":"109","messages":"110","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"111","messages":"112","errorCount":0,"fatalErrorCount":0,"warningCount":7,"fixableErrorCount":0,"fixableWarningCount":0,"source":"113","usedDeprecatedRules":"54"},{"filePath":"114","messages":"115","errorCount":0,"fatalErrorCount":0,"warningCount":7,"fixableErrorCount":0,"fixableWarningCount":0,"source":"116","usedDeprecatedRules":"54"},"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\index.js",[],["117","118"],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\App.js",[],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\reportWebVitals.js",[],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\reducers\\index.js",[],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Visualization.js",["119","120","121"],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\TopNav.js",["122"],"import { Link } from \"react-router-dom\";\r\nimport { useSelector, useDispatch } from \"react-redux\";\r\nimport { useHistory } from \"react-router-dom\";\r\n\r\nconst TopNav = () => {\r\n  const dispatch = useDispatch();\r\n  const { auth } = useSelector((state) => ({ ...state }));\r\n  const history = useHistory();\r\n\r\n  const logout = () => {\r\n    dispatch({\r\n      type: \"LOGOUT\",\r\n      payload: null,\r\n    });\r\n    window.localStorage.removeItem(\"jwttoken\");\r\n    window.localStorage.removeItem(\"email\");\r\n    window.localStorage.removeItem(\"userid\");\r\n    window.localStorage.removeItem(\"cognitousername\");\r\n\r\n    history.push(\"/login\");\r\n  };\r\n\r\n  return (\r\n    <div className=\"nav bg-light d-flex justify-content-between\">\r\n      <Link className=\"nav-link\" to=\"/\">\r\n        Home\r\n      </Link>\r\n      <Link className=\"nav-link\" to=\"/menu\">\r\n        Food Menu\r\n      </Link>\r\n      <Link className=\"nav-link\" to=\"/tours\">\r\n        Tour Packages\r\n      </Link>\r\n      {auth !== null && (\r\n        <Link className=\"nav-link\" to=\"/dashboard\">\r\n          Dashboard\r\n        </Link>\r\n      )}\r\n      {auth !== null && (\r\n        <Link className=\"nav-link\" params={{ auth: auth }} to=\"/notifications\">\r\n          Notifications\r\n        </Link>\r\n      )}\r\n      {auth !== null && (\r\n        <Link className=\"nav-link\" params={{ auth: auth }} to=\"/visualizations\">\r\n          Visualizations\r\n        </Link>\r\n      )}\r\n      {auth !== null && (\r\n        <a className=\"nav-link pointer\" href=\"#\" onClick={logout}>\r\n          Logout\r\n        </a>\r\n      )}\r\n      {auth === null && (\r\n        <>\r\n          <Link className=\"nav-link\" to=\"/login\">\r\n            Login\r\n          </Link>\r\n          <Link className=\"nav-link\" to=\"/register\">\r\n            Register\r\n          </Link>\r\n        </>\r\n      )}\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default TopNav;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\PrivateRoute.js",[],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Register.js",["123","124","125","126"],"import { useState } from \"react\";\r\n\r\nimport axios from \"axios\";\r\nimport { toast } from \"react-toastify\";\r\nimport { register } from \"../actions/auth\";\r\nimport {\r\n  CognitoUserPool,\r\n  CognitoUserAttribute,\r\n  CognitoUser,\r\n  AuthenticationDetails,\r\n} from \"amazon-cognito-identity-js\";\r\n\r\nconst shortUUID = require(\"short-uuid\");\r\nvar poolData = {\r\n  UserPoolId: \"us-east-1_rIytU64lO\",\r\n  ClientId: \"6qbs04aqbt3htai8l8pikfbivl\",\r\n};\r\n\r\nconst userPool = new CognitoUserPool(poolData);\r\n\r\nconst Register = ({ history }) => {\r\n  const [email, setEmail] = useState(\"\");\r\n  const [emailerror, setEmailerror] = useState();\r\n  const [name, setName] = useState(\"\");\r\n  const [ferror, setFerror] = useState();\r\n  const [password, setPassword] = useState(\"\");\r\n  const [passworderror, setPassworderror] = useState();\r\n  const [birthplaceanswer, setBirthPlaceAnswer] = useState(\"\");\r\n  const [birthplaceanswererror, setBirthPlaceAnswererror] = useState();\r\n  const [foodanswer, setFoodAnswer] = useState(\"\");\r\n  const [foodanswererror, setFoodAnswererror] = useState();\r\n  const [coloranswer, setColorAnswer] = useState(\"\");\r\n  const [coloranswererror, setColorAnswererror] = useState();\r\n\r\n  const validateName = (value) => {\r\n    const regexforname = /^[A-Za-z ]+$/;\r\n    if (regexforname.test(value)) {\r\n      setName(value);\r\n      setFerror(null);\r\n    } else {\r\n      setName(value);\r\n      setFerror(\"Enter only letters\");\r\n    }\r\n  };\r\n\r\n  const validatEmail = (value) => {\r\n    const regexforemail =\r\n      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/;\r\n    if (regexforemail.test(value)) {\r\n      setEmail(value);\r\n      setEmailerror(null);\r\n    } else {\r\n      setEmail(value);\r\n      setEmailerror(\"Enter valid Email Address\");\r\n    }\r\n  };\r\n\r\n  const validatPassword = (value) => {\r\n    const regexforpassword = /^[a-zA-Z0-9!@#$%^&*]{8,25}$/;\r\n    if (regexforpassword.test(value)) {\r\n      setPassword(value);\r\n      setPassworderror(null);\r\n    } else {\r\n      setPassword(value);\r\n      setPassworderror(\r\n        \"Password must have minimum 8 letter and one special character\"\r\n      );\r\n    }\r\n  };\r\n\r\n  const validateBirthPlaceAnswer = (value) => {\r\n    const regexforname = /^[A-Za-z ]+$/;\r\n    if (regexforname.test(value)) {\r\n      setBirthPlaceAnswer(value);\r\n      setBirthPlaceAnswererror(null);\r\n    } else {\r\n      setBirthPlaceAnswer(value);\r\n      setBirthPlaceAnswererror(\"Enter only letters\");\r\n    }\r\n  };\r\n\r\n  const validateFoodAnswer = (value) => {\r\n    const regexforname = /^[A-Za-z ]+$/;\r\n    if (regexforname.test(value)) {\r\n      setFoodAnswer(value);\r\n      setFoodAnswererror(null);\r\n    } else {\r\n      setFoodAnswer(value);\r\n      setFoodAnswererror(\"Enter only letters\");\r\n    }\r\n  };\r\n\r\n  const validateColorAnswer = (value) => {\r\n    const regexforname = /^[A-Za-z ]+$/;\r\n    if (regexforname.test(value)) {\r\n      setColorAnswer(value);\r\n      setColorAnswererror(null);\r\n    } else {\r\n      setColorAnswer(value);\r\n      setColorAnswererror(\"Enter only letters\");\r\n    }\r\n  };\r\n\r\n  const handleSubmit = (event) => {\r\n    if (\r\n      emailerror ||\r\n      ferror ||\r\n      passworderror ||\r\n      birthplaceanswererror ||\r\n      foodanswererror ||\r\n      coloranswererror\r\n    ) {\r\n      return;\r\n    } else {\r\n      event.preventDefault();\r\n\r\n      var userid = shortUUID.generate();\r\n      console.log(userid);\r\n\r\n      const attributeList = [\r\n        new CognitoUserAttribute({\r\n          Name: \"email\",\r\n          Value: email,\r\n        }),\r\n        new CognitoUserAttribute({\r\n          Name: \"name\",\r\n          Value: name,\r\n        }),\r\n        new CognitoUserAttribute({\r\n          Name: \"custom:userid\",\r\n          Value: userid.toString(),\r\n        }),\r\n      ];\r\n\r\n      userPool.signUp(\r\n        email,\r\n        password,\r\n        attributeList,\r\n        null,\r\n        function (err, result) {\r\n          if (err) {\r\n            alert(err.message || JSON.stringify(err));\r\n            return;\r\n          }\r\n          var cognitoUser = result.user;\r\n\r\n          axios\r\n            .post(\r\n              \"https://k6isuvi4x0.execute-api.us-east-1.amazonaws.com/test/register\",\r\n              {\r\n                userid,\r\n                email,\r\n                birthplaceanswer,\r\n                foodanswer,\r\n                coloranswer,\r\n              }\r\n            )\r\n            .then(() => {\r\n              console.log(\"user name is \" + cognitoUser.getUsername());\r\n            });\r\n\r\n          history.push(\"/login\");\r\n\r\n          console.log(\"user name is \" + cognitoUser.getUsername());\r\n        }\r\n      );\r\n    }\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>Register</h1>\r\n      </div>\r\n\r\n      <div className=\"container\">\r\n        <div className=\"row\">\r\n          <div className=\"col-md-6 offset-md-3\">\r\n            <form onSubmit={handleSubmit} className=\"mt-3\">\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Your name</label>\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter name\"\r\n                  value={name}\r\n                  onChange={(event) => validateName(event.target.value)}\r\n                />\r\n              </div>\r\n              {ferror && <p>{ferror}</p>}\r\n              <br />\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Email address</label>\r\n                <input\r\n                  type=\"email\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter email\"\r\n                  value={email}\r\n                  onChange={(event) => validatEmail(event.target.value)}\r\n                />\r\n              </div>\r\n              {emailerror && <p>{emailerror}</p>}\r\n              <br />\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Password</label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={password}\r\n                  onChange={(event) => validatPassword(event.target.value)}\r\n                />\r\n              </div>\r\n              {passworderror && <p>{passworderror}</p>}\r\n              <br />\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">What is your birth place:</label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={birthplaceanswer}\r\n                  onChange={(event) =>\r\n                    validateBirthPlaceAnswer(event.target.value)\r\n                  }\r\n                />\r\n              </div>\r\n              {birthplaceanswererror && <p>{birthplaceanswererror}</p>}\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">\r\n                  What is your favorite food:\r\n                </label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={foodanswer}\r\n                  onChange={(event) => validateFoodAnswer(event.target.value)}\r\n                />\r\n              </div>\r\n              {foodanswererror && <p>{foodanswererror}</p>}\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">\r\n                  {\" \"}\r\n                  What is your favorite color:\r\n                </label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={coloranswer}\r\n                  onChange={(event) => validateColorAnswer(event.target.value)}\r\n                />\r\n              </div>\r\n              {coloranswererror && <p>{coloranswererror}</p>}\r\n              <br />\r\n              <button\r\n                disabled={!name || !email || !password}\r\n                className=\"btn btn-primary\"\r\n              >\r\n                Submit\r\n              </button>\r\n            </form>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Register;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\booking\\Home.js",[],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\booking\\Menu.js",["127"],"import { useState, useEffect } from \"react\";\r\nimport { allMenu } from \"../actions/hotel\";\r\nimport MenuCard from \"../components/cards/MenuCard\";\r\nimport { useSelector } from \"react-redux\";\r\nconst Menu = () => {\r\n  const [menu, setMenu] = useState([]);\r\n  useEffect(() => {\r\n    loadAllmenu();\r\n  }, []);\r\n\r\n  const loadAllmenu = async () => {\r\n    let res = await allMenu();\r\n    setMenu(res.data.body);\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>Menu</h1>\r\n      </div>\r\n      {/* <div className=\"col\">\r\n        <br />\r\n        <Search />\r\n      </div> */}\r\n      <div className=\"container-fluid\">\r\n        <br />\r\n        {/* <pre>{JSON.stringify(hotels, null, 4)}</pre> */}\r\n        {menu.map((m) => (\r\n          <MenuCard key={m.id} m={m} />\r\n        ))}\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Menu;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\user\\Notifications.js",["128"],"import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\n\r\nconst Notifications = (props) => {\r\n  const [notifications, setNotifications] = useState([]);\r\n  const userid = localStorage.getItem(\"userid\");\r\n\r\n  useEffect(() => {\r\n    console.log(\"userid\", userid);\r\n    axios\r\n      .post(\r\n        `https://us-central1-serverlesbandb.cloudfunctions.net/getNotificationsById`,\r\n        { userid: userid }\r\n      )\r\n      .then((response) => {\r\n        console.log(response.data);\r\n        setNotifications(response.data.notification);\r\n      });\r\n  }, []);\r\n\r\n  return (\r\n    <div>\r\n      <h2>Notifications</h2>\r\n      {notifications.map((notification) => {\r\n        return (\r\n          <div className=\"card mb-3\">\r\n            <div className=\"row no-gutters\">\r\n              <div className=\"col-md-15\">{notification}</div>\r\n            </div>\r\n          </div>\r\n        );\r\n      })}\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Notifications;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\booking\\Tour.js",[],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\user\\Dashboard.js",["129","130"],"// import DashboardNav from \"../components/DashboardNav\";\r\n// import ConnectNav from \"../components/ConnectNav\";\r\nimport { Link } from \"react-router-dom\";\r\nimport { userHotelBookings } from \"../actions/hotel\";\r\nimport { useSelector } from \"react-redux\";\r\nimport { useState, useEffect } from \"react\";\r\n\r\nconst Dashboard = () => {\r\n  const {\r\n    auth: { token },\r\n  } = useSelector((state) => ({ ...state }));\r\n  const [booking, setBooking] = useState([]);\r\n\r\n  useEffect(() => {\r\n    loadUserBookings();\r\n  }, []);\r\n\r\n  const loadUserBookings = async () => {\r\n    const res = await userHotelBookings(token);\r\n    console.log(res);\r\n    setBooking(res.data);\r\n  };\r\n\r\n  return (\r\n    <>\r\n      {/* <div className=\"container-fluid bg-secondary p-5\">\r\n        <ConnectNav />\r\n      </div>\r\n\r\n      <div className=\"container-fluid p-4\">\r\n        <DashboardNav />\r\n      </div> */}\r\n\r\n      <div className=\"container-fluid\">\r\n        <div className=\"row\">\r\n          <div className=\"col-md-10\">\r\n            <h2>Your Bookings</h2>\r\n          </div>\r\n          <div className=\"col-md-2\">\r\n            <Link to=\"/\" className=\"btn btn-primary\">\r\n              Browse Hotels\r\n            </Link>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <div className=\"row\"></div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Dashboard;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Cipher.js",["131"],"import React, { useEffect, useState } from \"react\";\r\nimport { generateEncryptedCipher, decryptCipher } from \"./CipherBackend\";\r\n\r\nconst randomKey = Math.floor(Math.random() * 5) + 1;\r\n\r\nconst encryptedCipher = generateEncryptedCipher();\r\nconst decryptedCipher = decryptCipher(encryptedCipher, randomKey);\r\n\r\nfunction Cipher({ history }) {\r\n  const [userInfo, updateUserInfo] = useState({\r\n    decryptedCipherText: \"\",\r\n  });\r\n  const [errors, setErrors] = useState({\r\n    decryptedCipherTextValid: false,\r\n  });\r\n\r\n  const onChange = (e) => {\r\n    validate(e);\r\n    updateUserInfo({\r\n      ...userInfo,\r\n      [e.target.name]: e.target.value,\r\n    });\r\n  };\r\n\r\n  const validate = (e) => {\r\n    switch (e.target.name) {\r\n      case \"decryptedCipherText\":\r\n        if (e.target.value === \"\" || e.target.value === null) {\r\n          errors[\"decryptedCipherText\"] = \"Decrypted cipher text is required.\";\r\n          errors[\"decryptedCipherTextValid\"] = false;\r\n        } else if (e.target.value !== decryptedCipher) {\r\n          errors[\"decryptedCipherText\"] = \"Incorrect decrypted cipher text.\";\r\n          errors[\"decryptedCipherTextValid\"] = false;\r\n        } else {\r\n          errors[\"decryptedCipherText\"] = \"\";\r\n          errors[\"decryptedCipherTextValid\"] = true;\r\n        }\r\n        break;\r\n      default:\r\n        break;\r\n    }\r\n    setErrors(errors);\r\n  };\r\n\r\n  const validateFields = () => {\r\n    if (errors.decryptedCipherTextValid) {\r\n      return true;\r\n    } else {\r\n      return false;\r\n    }\r\n  };\r\n\r\n  const handleSubmit = async (e) => {\r\n    e.preventDefault();\r\n    if (validateFields()) {\r\n      console.log(\"Login success!\");\r\n      history.push(\"/\");\r\n    }\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>Login</h1>\r\n      </div>\r\n\r\n      <div className=\"container\">\r\n        <div className=\"row\">\r\n          <div className=\"col-md-6 offset-md-3\">\r\n            <div className=\"row\">\r\n              <span\r\n                style={{\r\n                  fontWeight: \"bold\",\r\n                  marginTop: \"20px\",\r\n                  paddingLeft: \"150px\",\r\n                }}\r\n              >\r\n                Decrypt Ceaser Cipher: {encryptedCipher}\r\n              </span>\r\n            </div>\r\n            <div className=\"row\">\r\n              {\" \"}\r\n              <span\r\n                style={{\r\n                  fontWeight: \"bold\",\r\n                  paddingLeft: \"150px\",\r\n                }}\r\n              >\r\n                Key = {randomKey}{\" \"}\r\n              </span>\r\n            </div>\r\n            <form onSubmit={handleSubmit} className=\"mt-3\">\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Cipher Text</label>\r\n                <input\r\n                  type=\"text\"\r\n                  name=\"decryptedCipherText\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Cipher\"\r\n                  value={userInfo.decryptedCipherText}\r\n                  onChange={(e) => onChange(e)}\r\n                />\r\n              </div>\r\n              {errors[\"decryptedCipherText\"]}\r\n              <br />\r\n\r\n              <button disabled={!validateFields()} className=\"btn btn-primary\">\r\n                Submit\r\n              </button>\r\n            </form>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n}\r\n\r\nexport default Cipher;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Securityquestion.js",["132"],"import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\n\r\nconst Securityquestion = ({ history }) => {\r\n  const [birthplaceanswer, setBirthPlaceAnswer] = useState(\"\");\r\n  const [foodanswer, setFoodAnswer] = useState(\"\");\r\n  const [coloranswer, setColorAnswer] = useState(\"\");\r\n  const [error, setError] = useState(\"\");\r\n\r\n  const handleSubmit = (event) => {\r\n    event.preventDefault();\r\n    var userid = localStorage.getItem(\"userid\");\r\n    var email = localStorage.getItem(\"email\");\r\n    var error = \"\";\r\n\r\n    axios\r\n      .post(\r\n        \"https://k6isuvi4x0.execute-api.us-east-1.amazonaws.com/test/checksecurityanswer\",\r\n        {\r\n          userid,\r\n          email,\r\n          birthplaceanswer,\r\n          foodanswer,\r\n          coloranswer,\r\n        }\r\n      )\r\n      .then(\r\n        (response) => {\r\n          error = response?.data?.message;\r\n          console.log(error);\r\n          setError(error);\r\n          if (!response?.data?.message) {\r\n            error = \"\";\r\n            setError(\"\");\r\n            history.push(\"/cipher\");\r\n          }\r\n        },\r\n        (error) => {\r\n          console.log(error);\r\n        }\r\n      );\r\n  };\r\n\r\n  return (\r\n    <div className=\"container\">\r\n      <div className=\"row\">\r\n        <div className=\"col-md-6 mt-5 mx-auto\">\r\n          <center>\r\n            <h1>Security Questions</h1>\r\n            <form onSubmit={handleSubmit}>\r\n              <label>\r\n                What is your birth place:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={birthplaceanswer}\r\n                  name=\"birthplaceanswer\"\r\n                  onChange={(event) => setBirthPlaceAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              <br />\r\n\r\n              <label>\r\n                What is your favorite food:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={foodanswer}\r\n                  name=\"foodanswer\"\r\n                  onChange={(event) => setFoodAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              <br />\r\n\r\n              <label>\r\n                What is your favorite color:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={coloranswer}\r\n                  name=\"coloranswer\"\r\n                  onChange={(event) => setColorAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              {error && <p>{error}</p>}\r\n              <br />\r\n\r\n              <input type=\"submit\" value=\"Submit\" />\r\n            </form>\r\n          </center>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Securityquestion;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\Analytics\\Graph.js",["133"],"import React from \"react\";\r\n\r\nconst Graph = () => {\r\n  // const [graph, setGraph] = useState(\"\");\r\n  // useEffect(() => {\r\n  //   callApi();\r\n  // }, []);\r\n\r\n  // const callApi = async () => {\r\n  //   const resp = await axios.get(\r\n  //     `https://datastudio.google.com/reporting/3c4b52d1-b179-438f-9ee4-fc95a0bc7b0d`\r\n  //   );\r\n  //   console.log(\"resp\", resp);\r\n  //   setGraph(resp);\r\n  // };\r\n\r\n  // return <iframe src=\"https://www.youtube.com/embed/cWDJoK8zw58\" />;\r\n  return (\r\n    <>\r\n      <div>\r\n        <a\r\n          className=\"def\"\r\n          target=\"_blank\"\r\n          href=\"https://datastudio.google.com/reporting/3c4b52d1-b179-438f-9ee4-fc95a0bc7b0d\"\r\n        >\r\n          Analytics\r\n        </a>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Graph;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\hotels\\ViewHotel.js",["134","135","136","137","138"],"import React, { useState, useEffect } from \"react\";\r\nimport { useStore } from \"react-redux\";\r\nimport { hotelById, diffDays, isAlreadyBooked } from \"../actions/hotel\";\r\nimport moment from \"moment\";\r\nimport { useSelector } from \"react-redux\";\r\nimport { bookRoom } from \"../actions/hotel\";\r\nimport { toast } from \"react-toastify\";\r\n\r\nconst ViewHotel = ({ match, history }) => {\r\n  const [hotel, setHotel] = useState({});\r\n  // const [image, setImage] = useState(\"\");\r\n  const [loading, setLoading] = useState(false);\r\n  const [alreadyBooked, setAlreadyBooked] = useState(false);\r\n\r\n  const { auth } = useSelector((state) => ({ ...state }));\r\n\r\n  useEffect(() => {\r\n    loadHotel();\r\n  }, []);\r\n\r\n  const loadHotel = async () => {\r\n    let res = await hotelById(match.params.hotelId);\r\n    setHotel(res.data.body);\r\n  };\r\n\r\n  const handleClick = async (e) => {\r\n    e.preventDefault();\r\n\r\n    if (!auth || !auth.idToken) {\r\n      history.push(\"/login\");\r\n      return;\r\n    }\r\n\r\n    setLoading(true);\r\n    if (!auth) history.push(\"/login\");\r\n    const userId = localStorage.getItem(\"userid\");\r\n    const email = localStorage.getItem(\"email\");\r\n    const bookingData = {\r\n      userid: userId,\r\n      roomid: hotel.id,\r\n      email,\r\n      To: hotel.to,\r\n      From: hotel.from,\r\n    };\r\n\r\n    const response = await bookRoom(bookingData);\r\n    if (response.status === 200) {\r\n      setLoading(false);\r\n      toast.success(\"Booking successful\");\r\n      history.push(\"/\");\r\n    } else {\r\n      setLoading(false);\r\n      toast.error(\"Booking failed\");\r\n    }\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>{hotel.title}</h1>\r\n      </div>\r\n      <div className=\"container-fluid\">\r\n        <div className=\"row\">\r\n          <div className=\"col-md-6\">\r\n            <br />\r\n            <img\r\n              src={hotel.image}\r\n              alt={hotel.title}\r\n              className=\"img img-fluid m-2\"\r\n            />\r\n          </div>\r\n\r\n          <div className=\"col-md-6\">\r\n            <br />\r\n            <b>{hotel.description}</b>\r\n            <p\r\n              className=\"alert alert-info mt-3\"\r\n              style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n            >\r\n              ${hotel.dailyRate}\r\n            </p>\r\n            <p className=\"card-text\">\r\n              <span className=\"float-right text-primary\">\r\n                for {diffDays(hotel.from, hotel.to)}{\" \"}\r\n                {diffDays(hotel.from, hotel.to) <= 1 ? \" day\" : \" days\"}\r\n              </span>\r\n            </p>\r\n            <p>\r\n              From <br />{\" \"}\r\n              {moment(new Date(hotel.from)).format(\"MMMM Do YYYY, h:mm:ss a\")}\r\n            </p>\r\n            <p>\r\n              To <br />{\" \"}\r\n              {moment(new Date(hotel.to)).format(\"MMMM Do YYYY, h:mm:ss a\")}\r\n            </p>\r\n            {/* <i>Posted by {hotel.postedBy && hotel.postedBy.name}</i> */}\r\n            <br />\r\n            <button\r\n              onClick={handleClick}\r\n              className=\"btn btn-block btn-lg btn-primary mt-3\"\r\n              disabled={loading || !auth}\r\n            >\r\n              {loading\r\n                ? \"Loading...\"\r\n                : // : alreadyBooked\r\n                // ? \"Already Booked\"\r\n                auth && auth.idToken\r\n                ? \"Book Now\"\r\n                : \"Login to Book\"}\r\n            </button>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default ViewHotel;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\Login.js",["139","140","141"],"import { useState } from \"react\";\r\nimport { toast } from \"react-toastify\";\r\nimport { login } from \"../actions/auth\";\r\n\r\nimport { useDispatch } from \"react-redux\";\r\nimport {\r\n  CognitoUserPool,\r\n  CognitoUserAttribute,\r\n  CognitoUser,\r\n  AuthenticationDetails,\r\n} from \"amazon-cognito-identity-js\";\r\n\r\nconst Login = ({ history }) => {\r\n  const dispatch = useDispatch();\r\n\r\n  var poolData = {\r\n    UserPoolId: \"us-east-1_rIytU64lO\",\r\n    ClientId: \"6qbs04aqbt3htai8l8pikfbivl\",\r\n  };\r\n\r\n  const userPool = new CognitoUserPool(poolData);\r\n\r\n  const [email, setEmail] = useState(\"\");\r\n  const [emailerror, setEmailerror] = useState();\r\n  const [password, setPassword] = useState(\"\");\r\n\r\n  const validatEmail = (value) => {\r\n    const regexforemail =\r\n      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/;\r\n    if (regexforemail.test(value)) {\r\n      setEmail(value);\r\n      setEmailerror(null);\r\n    } else {\r\n      setEmail(value);\r\n      setEmailerror(\"Enter valid Email Address\");\r\n    }\r\n  };\r\n\r\n  const handleSubmit = (event) => {\r\n    if (emailerror) {\r\n      return;\r\n    } else {\r\n      const cognitoUser = new CognitoUser({ Username: email, Pool: userPool });\r\n      const authenticationDetails = new AuthenticationDetails({\r\n        Username: email,\r\n        Password: password,\r\n      });\r\n\r\n      event.preventDefault();\r\n\r\n      cognitoUser.authenticateUser(authenticationDetails, {\r\n        onSuccess: function (result) {\r\n          console.log(result.idToken.payload);\r\n          console.log(result);\r\n          var response = result.idToken.payload;\r\n          var userid = response[\"custom:userid\"];\r\n          var cognitousername = response[\"cognito:username\"];\r\n\r\n          console.log(\"userid: \" + userid);\r\n          console.log(\"token: \" + result.getIdToken().getJwtToken());\r\n          console.log(\"cognitousername: \" + cognitousername);\r\n\r\n          localStorage.setItem(\"jwttoken\", result.getIdToken().getJwtToken());\r\n          localStorage.setItem(\"email\", result.idToken.payload.email);\r\n          localStorage.setItem(\"userid\", userid);\r\n          localStorage.setItem(\"cognitousername\", cognitousername);\r\n\r\n          console.log(\"LoggedIn\");\r\n          dispatch({\r\n            type: \"LOGGED_IN_USER\",\r\n            payload: result,\r\n          });\r\n          history.push(\"/\");\r\n        },\r\n        onFailure: function (err) {\r\n          console.log(err.message);\r\n        },\r\n      });\r\n    }\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>Login</h1>\r\n      </div>\r\n\r\n      <div className=\"container\">\r\n        <div className=\"row\">\r\n          <div className=\"col-md-6 offset-md-3\">\r\n            <form onSubmit={handleSubmit} className=\"mt-3\">\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Email address</label>\r\n                <input\r\n                  type=\"email\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter email\"\r\n                  value={email}\r\n                  onChange={(event) => validatEmail(event.target.value)}\r\n                />\r\n              </div>\r\n              {emailerror && <p>{emailerror}</p>}\r\n              <br />\r\n\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Password</label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={password}\r\n                  onChange={(event) => setPassword(event.target.value)}\r\n                />\r\n              </div>\r\n              <br />\r\n\r\n              <button\r\n                disabled={!email || !password}\r\n                className=\"btn btn-primary\"\r\n              >\r\n                Submit\r\n              </button>\r\n            </form>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Login;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\reducers\\auth.js",[],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\auth\\CipherBackend.js",[],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\actions\\auth.js",["142"],"import axios from \"axios\";\r\n\r\n// export const register = async (user) =>\r\n//   await axios.post(`${process.env.REACT_APP_API}/register`, user);\r\n\r\n// export const login = async (user) =>\r\n//   await axios.post(`${process.env.REACT_APP_API}/login`, user);\r\n\r\n// update user in local storage\r\nexport const updateUserInLocalStorage = (user, next) => {\r\n  if (window.localStorage.getItem(\"auth\")) {\r\n    let auth = JSON.parse(localStorage.getItem(\"auth\"));\r\n    auth.user = user;\r\n    localStorage.setItem(\"auth\", JSON.stringify(auth));\r\n    next();\r\n  }\r\n};\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\cards\\SmallCard.js",["143","144","145","146","147","148"],"import { diffDays } from \"../../actions/hotel\";\r\nimport { useHistory, Link } from \"react-router-dom\";\r\nimport { EditOutlined, DeleteOutlined } from \"@ant-design/icons\";\r\n\r\nconst SmallCard = ({\r\n  h,\r\n  handleHotelDelete = (f) => f,\r\n  owner = false,\r\n  showViewMoreButton = true,\r\n}) => {\r\n  const history = useHistory();\r\n  return (\r\n    <>\r\n      <div className=\"card mb-3\">\r\n        <div className=\"row no-gutters\">\r\n          <div className=\"col-md-4\">\r\n            {h.image && h.image ? (\r\n              <img\r\n                src={h.image}\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid rounded mx-auto d-block\"\r\n              />\r\n            ) : (\r\n              <img\r\n                src=\"https://via.placeholder.com/900x500.png?text=MERN+Booking\"\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid\"\r\n              />\r\n            )}\r\n          </div>\r\n          <div className=\"col-md-8\">\r\n            <div className=\"card-body\">\r\n              <h3 className=\"card-title\">{h.title} </h3>\r\n              <p\r\n                className=\"alert alert-info\"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Room type: {h.category}\r\n              </p>\r\n              <p className=\"card-text\">{`${h.description}`}</p>\r\n\r\n              <p\r\n                className=\"alert alert-warning\"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Price: ${h.dailyRate}\r\n              </p>\r\n\r\n              <div className=\"d-flex justify-content-between h4\">\r\n                {showViewMoreButton && (\r\n                  <button\r\n                    onClick={() => history.push(`/hotel/${h.id}`)}\r\n                    className=\"btn btn-primary\"\r\n                  >\r\n                    Show more\r\n                  </button>\r\n                )}\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default SmallCard;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\actions\\hotel.js",[],"C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\cards\\MenuCard.js",["149","150","151","152","153","154","155"],"import { diffDays } from \"../../actions/hotel\";\r\nimport { useHistory, Link } from \"react-router-dom\";\r\nimport { EditOutlined, DeleteOutlined } from \"@ant-design/icons\";\r\nimport { useState, useEffect } from \"react\";\r\nimport { useSelector } from \"react-redux\";\r\nimport { bookMeal } from \"../../actions/hotel\";\r\nimport { toast } from \"react-toastify\";\r\nconst MenuCard = ({\r\n  m,\r\n  handleHotelDelete = (f) => f,\r\n  owner = false,\r\n  showViewMoreButton = true,\r\n}) => {\r\n  const history = useHistory();\r\n\r\n  const [loading, setLoading] = useState(false);\r\n\r\n  const { auth } = useSelector((state) => ({ ...state }));\r\n\r\n  const handleClick = async (e) => {\r\n    e.preventDefault();\r\n    const email = localStorage.getItem(\"email\");\r\n    const userid = localStorage.getItem(\"userid\");\r\n\r\n    const orderData = {\r\n      email,\r\n      image: m.image,\r\n      userid,\r\n      description: m.description,\r\n      id: m.id,\r\n      price: m.price,\r\n      title: m.title,\r\n    };\r\n    const response = await bookMeal(orderData);\r\n    console.log(response);\r\n    if (response.status === 200) {\r\n      setLoading(false);\r\n      toast.success(\"Order successful\");\r\n      history.push(\"/\");\r\n    } else {\r\n      setLoading(false);\r\n      toast.error(\"Order failed\");\r\n    }\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"card mb-3\">\r\n        <div className=\"row no-gutters\">\r\n          <div className=\"col-md-4\">\r\n            {m.image && m.image ? (\r\n              <img\r\n                src={m.image}\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid rounded mx-auto d-block\"\r\n              />\r\n            ) : (\r\n              <img\r\n                src=\"https://via.placeholder.com/900x500.png?text=MERN+Booking\"\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid\"\r\n              />\r\n            )}\r\n          </div>\r\n          <div className=\"col-md-8\">\r\n            <div className=\"card-body\">\r\n              <h3 className=\"card-title\">{m.title} </h3>\r\n\r\n              <p className=\"card-text\">{`${m.description}`}</p>\r\n\r\n              <p\r\n                className=\"alert alert-warning \"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Price: ${m.price}\r\n              </p>\r\n\r\n              <div className=\"d-flex justify-content-between h4\">\r\n                <button\r\n                  onClick={handleClick}\r\n                  className=\"btn btn-block btn-lg btn-primary mt-3\"\r\n                  disabled={loading || !auth}\r\n                >\r\n                  {loading\r\n                    ? \"Loading...\"\r\n                    : // : alreadyBooked\r\n                    // ? \"Already Booked\"\r\n                    auth && auth.idToken\r\n                    ? \"Order Now\"\r\n                    : \"Login to Order\"}\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default MenuCard;\r\n","C:\\Users\\hirva\\Documents\\Dal\\Summer Term\\CSCI 5410\\Project\\Project Code\\csci5410_group30\\client\\src\\components\\cards\\TourCard.js",["156","157","158","159","160","161","162"],"import { diffDays } from \"../../actions/hotel\";\r\nimport { useHistory, Link } from \"react-router-dom\";\r\nimport { EditOutlined, DeleteOutlined } from \"@ant-design/icons\";\r\nimport { useSelector } from \"react-redux\";\r\nimport { useState, useEffect } from \"react\";\r\nimport { bookTour } from \"../../actions/hotel\";\r\nimport { toast } from \"react-toastify\";\r\nconst TourCard = ({\r\n  m,\r\n  handleHotelDelete = (f) => f,\r\n  owner = false,\r\n  showViewMoreButton = true,\r\n}) => {\r\n  const history = useHistory();\r\n\r\n  const [loading, setLoading] = useState(false);\r\n\r\n  const { auth } = useSelector((state) => ({ ...state }));\r\n\r\n  const handleClick = async (e) => {\r\n    e.preventDefault();\r\n    const email = localStorage.getItem(\"email\");\r\n    const userid = localStorage.getItem(\"userid\");\r\n\r\n    const orderData = {\r\n      email,\r\n      image: m.image,\r\n      userid,\r\n      description: m.description,\r\n      id: m.id,\r\n      price: m.price,\r\n      title: m.title,\r\n    };\r\n    const response = await bookTour(orderData);\r\n    if (response.status === 200) {\r\n      setLoading(false);\r\n      toast.success(\"Order successful\");\r\n      history.push(\"/\");\r\n    } else {\r\n      setLoading(false);\r\n      toast.error(\"Order failed\");\r\n    }\r\n  };\r\n  return (\r\n    <>\r\n      <div className=\"card mb-3\">\r\n        <div className=\"row no-gutters\">\r\n          <div className=\"col-md-4\">\r\n            {m.image && m.image ? (\r\n              <img\r\n                src={m.image}\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img rounded mx-auto d-block\"\r\n                style={{ maxHeight: \"550px\", maxWidth: \"500px\" }}\r\n              />\r\n            ) : (\r\n              <img\r\n                src=\"https://via.placeholder.com/900x500.png?text=MERN+Booking\"\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img rounded mx-auto d-block\"\r\n              />\r\n            )}\r\n          </div>\r\n          <div className=\"col-md-8\">\r\n            <div className=\"card-body\">\r\n              <h3 className=\"card-title\">{m.title} </h3>\r\n\r\n              <p className=\"card-text\">{`${m.description}`}</p>\r\n\r\n              <p\r\n                className=\"alert alert-warning \"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Price: ${m.price}\r\n              </p>\r\n\r\n              <div className=\"d-flex justify-content-between h4\">\r\n                <button\r\n                  onClick={handleClick}\r\n                  className=\"btn btn-block btn-lg btn-primary mt-3\"\r\n                  disabled={loading || !auth}\r\n                >\r\n                  {loading\r\n                    ? \"Loading...\"\r\n                    : // : alreadyBooked\r\n                    // ? \"Already Booked\"\r\n                    auth && auth.idToken\r\n                    ? \"Book Now\"\r\n                    : \"Login to Order\"}\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default TourCard;\r\n",{"ruleId":"163","replacedBy":"164"},{"ruleId":"165","replacedBy":"166"},{"ruleId":"167","severity":1,"message":"168","line":7,"column":9,"nodeType":"169","messageId":"170","endLine":11,"endColumn":10,"fix":"171"},{"ruleId":"167","severity":1,"message":"168","line":16,"column":9,"nodeType":"169","messageId":"170","endLine":20,"endColumn":10,"fix":"172"},{"ruleId":"167","severity":1,"message":"168","line":25,"column":9,"nodeType":"169","messageId":"170","endLine":29,"endColumn":10,"fix":"173"},{"ruleId":"174","severity":1,"message":"175","line":50,"column":9,"nodeType":"169","endLine":50,"endColumn":67},{"ruleId":"176","severity":1,"message":"177","line":4,"column":10,"nodeType":"178","messageId":"179","endLine":4,"endColumn":15},{"ruleId":"176","severity":1,"message":"180","line":5,"column":10,"nodeType":"178","messageId":"179","endLine":5,"endColumn":18},{"ruleId":"176","severity":1,"message":"181","line":9,"column":3,"nodeType":"178","messageId":"179","endLine":9,"endColumn":14},{"ruleId":"176","severity":1,"message":"182","line":10,"column":3,"nodeType":"178","messageId":"179","endLine":10,"endColumn":24},{"ruleId":"176","severity":1,"message":"183","line":4,"column":10,"nodeType":"178","messageId":"179","endLine":4,"endColumn":21},{"ruleId":"184","severity":1,"message":"185","line":19,"column":6,"nodeType":"186","endLine":19,"endColumn":8,"suggestions":"187"},{"ruleId":"176","severity":1,"message":"188","line":12,"column":10,"nodeType":"178","messageId":"179","endLine":12,"endColumn":17},{"ruleId":"184","severity":1,"message":"189","line":16,"column":6,"nodeType":"186","endLine":16,"endColumn":8,"suggestions":"190"},{"ruleId":"176","severity":1,"message":"191","line":1,"column":17,"nodeType":"178","messageId":"179","endLine":1,"endColumn":26},{"ruleId":"176","severity":1,"message":"191","line":2,"column":17,"nodeType":"178","messageId":"179","endLine":2,"endColumn":26},{"ruleId":"167","severity":1,"message":"168","line":21,"column":9,"nodeType":"169","messageId":"170","endLine":25,"endColumn":10,"fix":"192"},{"ruleId":"176","severity":1,"message":"193","line":2,"column":10,"nodeType":"178","messageId":"179","endLine":2,"endColumn":18},{"ruleId":"176","severity":1,"message":"194","line":3,"column":31,"nodeType":"178","messageId":"179","endLine":3,"endColumn":46},{"ruleId":"176","severity":1,"message":"195","line":13,"column":10,"nodeType":"178","messageId":"179","endLine":13,"endColumn":23},{"ruleId":"176","severity":1,"message":"196","line":13,"column":25,"nodeType":"178","messageId":"179","endLine":13,"endColumn":41},{"ruleId":"184","severity":1,"message":"197","line":19,"column":6,"nodeType":"186","endLine":19,"endColumn":8,"suggestions":"198"},{"ruleId":"176","severity":1,"message":"177","line":2,"column":10,"nodeType":"178","messageId":"179","endLine":2,"endColumn":15},{"ruleId":"176","severity":1,"message":"199","line":3,"column":10,"nodeType":"178","messageId":"179","endLine":3,"endColumn":15},{"ruleId":"176","severity":1,"message":"200","line":8,"column":3,"nodeType":"178","messageId":"179","endLine":8,"endColumn":23},{"ruleId":"176","severity":1,"message":"201","line":1,"column":8,"nodeType":"178","messageId":"179","endLine":1,"endColumn":13},{"ruleId":"176","severity":1,"message":"202","line":1,"column":10,"nodeType":"178","messageId":"179","endLine":1,"endColumn":18},{"ruleId":"176","severity":1,"message":"203","line":2,"column":22,"nodeType":"178","messageId":"179","endLine":2,"endColumn":26},{"ruleId":"176","severity":1,"message":"204","line":3,"column":10,"nodeType":"178","messageId":"179","endLine":3,"endColumn":22},{"ruleId":"176","severity":1,"message":"205","line":3,"column":24,"nodeType":"178","messageId":"179","endLine":3,"endColumn":38},{"ruleId":"206","severity":1,"message":"207","line":18,"column":15,"nodeType":"169","endLine":22,"endColumn":17},{"ruleId":"206","severity":1,"message":"207","line":24,"column":15,"nodeType":"169","endLine":28,"endColumn":17},{"ruleId":"176","severity":1,"message":"202","line":1,"column":10,"nodeType":"178","messageId":"179","endLine":1,"endColumn":18},{"ruleId":"176","severity":1,"message":"203","line":2,"column":22,"nodeType":"178","messageId":"179","endLine":2,"endColumn":26},{"ruleId":"176","severity":1,"message":"204","line":3,"column":10,"nodeType":"178","messageId":"179","endLine":3,"endColumn":22},{"ruleId":"176","severity":1,"message":"205","line":3,"column":24,"nodeType":"178","messageId":"179","endLine":3,"endColumn":38},{"ruleId":"176","severity":1,"message":"191","line":4,"column":20,"nodeType":"178","messageId":"179","endLine":4,"endColumn":29},{"ruleId":"206","severity":1,"message":"207","line":52,"column":15,"nodeType":"169","endLine":56,"endColumn":17},{"ruleId":"206","severity":1,"message":"207","line":58,"column":15,"nodeType":"169","endLine":62,"endColumn":17},{"ruleId":"176","severity":1,"message":"202","line":1,"column":10,"nodeType":"178","messageId":"179","endLine":1,"endColumn":18},{"ruleId":"176","severity":1,"message":"203","line":2,"column":22,"nodeType":"178","messageId":"179","endLine":2,"endColumn":26},{"ruleId":"176","severity":1,"message":"204","line":3,"column":10,"nodeType":"178","messageId":"179","endLine":3,"endColumn":22},{"ruleId":"176","severity":1,"message":"205","line":3,"column":24,"nodeType":"178","messageId":"179","endLine":3,"endColumn":38},{"ruleId":"176","severity":1,"message":"191","line":5,"column":20,"nodeType":"178","messageId":"179","endLine":5,"endColumn":29},{"ruleId":"206","severity":1,"message":"207","line":50,"column":15,"nodeType":"169","endLine":55,"endColumn":17},{"ruleId":"206","severity":1,"message":"207","line":57,"column":15,"nodeType":"169","endLine":61,"endColumn":17},"no-native-reassign",["208"],"no-negated-in-lhs",["209"],"react/jsx-no-target-blank","Using target=\"_blank\" without rel=\"noreferrer\" (which implies rel=\"noopener\") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations","JSXOpeningElement","noTargetBlankWithoutNoreferrer",{"range":"210","text":"211"},{"range":"212","text":"211"},{"range":"213","text":"211"},"jsx-a11y/anchor-is-valid","The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md","no-unused-vars","'toast' is defined but never used.","Identifier","unusedVar","'register' is defined but never used.","'CognitoUser' is defined but never used.","'AuthenticationDetails' is defined but never used.","'useSelector' is defined but never used.","react-hooks/exhaustive-deps","React Hook useEffect has a missing dependency: 'userid'. Either include it or remove the dependency array.","ArrayExpression",["214"],"'booking' is assigned a value but never used.","React Hook useEffect has a missing dependency: 'loadUserBookings'. Either include it or remove the dependency array.",["215"],"'useEffect' is defined but never used.",{"range":"216","text":"211"},"'useStore' is defined but never used.","'isAlreadyBooked' is defined but never used.","'alreadyBooked' is assigned a value but never used.","'setAlreadyBooked' is assigned a value but never used.","React Hook useEffect has a missing dependency: 'loadHotel'. Either include it or remove the dependency array.",["217"],"'login' is defined but never used.","'CognitoUserAttribute' is defined but never used.","'axios' is defined but never used.","'diffDays' is defined but never used.","'Link' is defined but never used.","'EditOutlined' is defined but never used.","'DeleteOutlined' is defined but never used.","jsx-a11y/img-redundant-alt","Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.","no-global-assign","no-unsafe-negation",[348,348]," rel=\"noreferrer\"",[693,693],[1034,1034],{"desc":"218","fix":"219"},{"desc":"220","fix":"221"},[667,667],{"desc":"222","fix":"223"},"Update the dependencies array to be: [userid]",{"range":"224","text":"225"},"Update the dependencies array to be: [loadUserBookings]",{"range":"226","text":"227"},"Update the dependencies array to be: [loadHotel]",{"range":"228","text":"229"},[573,575],"[userid]",[510,512],"[loadUserBookings]",[685,687],"[loadHotel]"]
+[
+  {
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\index.js": "1",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\reportWebVitals.js": "2",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\App.js": "3",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\reducers\\index.js": "4",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\PrivateRoute.js": "5",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\user\\Notifications.js": "6",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\Securityquestion.js": "7",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\Analytics\\Graph.js": "8",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\TopNav.js": "9",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\booking\\Home.js": "10",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\booking\\Tour.js": "11",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\hotels\\ViewHotel.js": "12",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\booking\\Menu.js": "13",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\Login.js": "14",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\Register.js": "15",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\user\\feedback.js": "16",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\CeaserCipher.js": "17",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\reducers\\auth.js": "18",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\cards\\SmallCard.js": "19",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\actions\\auth.js": "20",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\CipherBackend.js": "21",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\cards\\TourCard.js": "22",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\actions\\hotel.js": "23",
+    "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\cards\\MenuCard.js": "24"
+  },
+  {
+    "size": 1029,
+    "mtime": 1658578718480,
+    "results": "25",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 375,
+    "mtime": 1658578718481,
+    "results": "27",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 1935,
+    "mtime": 1658626305016,
+    "results": "28",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 180,
+    "mtime": 1658578718480,
+    "results": "29",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 372,
+    "mtime": 1658578718471,
+    "results": "30",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 962,
+    "mtime": 1658578718481,
+    "results": "31",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 2819,
+    "mtime": 1658578718471,
+    "results": "32",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 773,
+    "mtime": 1658578718471,
+    "results": "33",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 2665,
+    "mtime": 1658626305026,
+    "results": "34",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 2091,
+    "mtime": 1658626603074,
+    "results": "35",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 2076,
+    "mtime": 1658627360633,
+    "results": "36",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 3553,
+    "mtime": 1658626305029,
+    "results": "37",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 2069,
+    "mtime": 1658627373118,
+    "results": "38",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 4063,
+    "mtime": 1658626305022,
+    "results": "39",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 9551,
+    "mtime": 1658626305023,
+    "results": "40",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 1584,
+    "mtime": 1658626305029,
+    "results": "41",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 2183,
+    "mtime": 1658626305019,
+    "results": "42",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 424,
+    "mtime": 1658578718480,
+    "results": "43",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 2073,
+    "mtime": 1658578718471,
+    "results": "44",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 556,
+    "mtime": 1658578718471,
+    "results": "45",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 461,
+    "mtime": 1658626305021,
+    "results": "46",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 3042,
+    "mtime": 1658626305029,
+    "results": "47",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 1646,
+    "mtime": 1658626305018,
+    "results": "48",
+    "hashOfConfig": "26"
+  },
+  {
+    "size": 3002,
+    "mtime": 1658626305029,
+    "results": "49",
+    "hashOfConfig": "26"
+  },
+  {
+    "filePath": "50",
+    "messages": "51",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "52"
+  },
+  "e2p5bq",
+  {
+    "filePath": "53",
+    "messages": "54",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "55",
+    "messages": "56",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "57",
+    "messages": "58",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "59",
+    "messages": "60",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "61",
+    "messages": "62",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "63",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "64",
+    "messages": "65",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "66",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "67",
+    "messages": "68",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 1,
+    "source": "69",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "70",
+    "messages": "71",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 5,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 1,
+    "source": "72",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "73",
+    "messages": "74",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "75",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "76",
+    "messages": "77",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "78",
+    "messages": "79",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 5,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "80",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "81",
+    "messages": "82",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "83",
+    "messages": "84",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 2,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "85",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "86",
+    "messages": "87",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 3,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "88",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "89",
+    "messages": "90",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "91",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "92",
+    "messages": "93",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 4,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "94",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "95",
+    "messages": "96",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "97",
+    "messages": "98",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 6,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "99",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "100",
+    "messages": "101",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "102",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "103",
+    "messages": "104",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "105",
+    "messages": "106",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 7,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "107",
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "108",
+    "messages": "109",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "52"
+  },
+  {
+    "filePath": "110",
+    "messages": "111",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 7,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "112",
+    "usedDeprecatedRules": "52"
+  },
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\index.js",
+  [],
+  [
+    "113",
+    "114"
+  ],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\reportWebVitals.js",
+  [],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\App.js",
+  [],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\reducers\\index.js",
+  [],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\PrivateRoute.js",
+  [],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\user\\Notifications.js",
+  [
+    "115"
+  ],
+  "import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\n\r\nconst Notifications = (props) => {\r\n  const [notifications, setNotifications] = useState([]);\r\n  const userid = localStorage.getItem(\"userid\");\r\n\r\n  useEffect(() => {\r\n    console.log(\"userid\", userid);\r\n    axios\r\n      .post(\r\n        `https://us-central1-serverlesbandb.cloudfunctions.net/getNotificationsById`,\r\n        { userid: userid }\r\n      )\r\n      .then((response) => {\r\n        console.log(response.data);\r\n        setNotifications(response.data.notification);\r\n      });\r\n  }, []);\r\n\r\n  return (\r\n    <div>\r\n      <h2>Notifications</h2>\r\n      {notifications.map((notification) => {\r\n        return (\r\n          <div className=\"card mb-3\">\r\n            <div className=\"row no-gutters\">\r\n              <div className=\"col-md-15\">{notification}</div>\r\n            </div>\r\n          </div>\r\n        );\r\n      })}\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Notifications;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\Securityquestion.js",
+  [
+    "116"
+  ],
+  "import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\n\r\nconst Securityquestion = ({ history }) => {\r\n  const [birthplaceanswer, setBirthPlaceAnswer] = useState(\"\");\r\n  const [foodanswer, setFoodAnswer] = useState(\"\");\r\n  const [coloranswer, setColorAnswer] = useState(\"\");\r\n  const [error, setError] = useState(\"\");\r\n\r\n  const handleSubmit = (event) => {\r\n    event.preventDefault();\r\n    var userid = localStorage.getItem(\"userid\");\r\n    var email = localStorage.getItem(\"email\");\r\n    var error = \"\";\r\n\r\n    axios\r\n      .post(\r\n        \"https://k6isuvi4x0.execute-api.us-east-1.amazonaws.com/test/checksecurityanswer\",\r\n        {\r\n          userid,\r\n          email,\r\n          birthplaceanswer,\r\n          foodanswer,\r\n          coloranswer,\r\n        }\r\n      )\r\n      .then(\r\n        (response) => {\r\n          error = response?.data?.message;\r\n          console.log(error);\r\n          setError(error);\r\n          if (!response?.data?.message) {\r\n            error = \"\";\r\n            setError(\"\");\r\n            history.push(\"/cipher\");\r\n          }\r\n        },\r\n        (error) => {\r\n          console.log(error);\r\n        }\r\n      );\r\n  };\r\n\r\n  return (\r\n    <div className=\"container\">\r\n      <div className=\"row\">\r\n        <div className=\"col-md-6 mt-5 mx-auto\">\r\n          <center>\r\n            <h1>Security Questions</h1>\r\n            <form onSubmit={handleSubmit}>\r\n              <label>\r\n                What is your birth place:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={birthplaceanswer}\r\n                  name=\"birthplaceanswer\"\r\n                  onChange={(event) => setBirthPlaceAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              <br />\r\n\r\n              <label>\r\n                What is your favorite food:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={foodanswer}\r\n                  name=\"foodanswer\"\r\n                  onChange={(event) => setFoodAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              <br />\r\n\r\n              <label>\r\n                What is your favorite color:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={coloranswer}\r\n                  name=\"coloranswer\"\r\n                  onChange={(event) => setColorAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              {error && <p>{error}</p>}\r\n              <br />\r\n\r\n              <input type=\"submit\" value=\"Submit\" />\r\n            </form>\r\n          </center>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Securityquestion;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\Analytics\\Graph.js",
+  [
+    "117"
+  ],
+  "import React from \"react\";\r\n\r\nconst Graph = () => {\r\n  // const [graph, setGraph] = useState(\"\");\r\n  // useEffect(() => {\r\n  //   callApi();\r\n  // }, []);\r\n\r\n  // const callApi = async () => {\r\n  //   const resp = await axios.get(\r\n  //     `https://datastudio.google.com/reporting/3c4b52d1-b179-438f-9ee4-fc95a0bc7b0d`\r\n  //   );\r\n  //   console.log(\"resp\", resp);\r\n  //   setGraph(resp);\r\n  // };\r\n\r\n  // return <iframe src=\"https://www.youtube.com/embed/cWDJoK8zw58\" />;\r\n  return (\r\n    <>\r\n      <div>\r\n        <a\r\n          className=\"def\"\r\n          target=\"_blank\"\r\n          href=\"https://datastudio.google.com/reporting/3c4b52d1-b179-438f-9ee4-fc95a0bc7b0d\"\r\n        >\r\n          Analytics\r\n        </a>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Graph;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\TopNav.js",
+  [
+    "118",
+    "119",
+    "120",
+    "121",
+    "122"
+  ],
+  "import { Link } from \"react-router-dom\";\r\nimport { useSelector, useDispatch } from \"react-redux\";\r\nimport { useHistory } from \"react-router-dom\";\r\nimport axios from \"axios\";\r\n\r\nimport {\r\n  CognitoUserPool,\r\n  CognitoUserAttribute,\r\n  CognitoUser,\r\n  AuthenticationDetails,\r\n} from \"amazon-cognito-identity-js\";\r\n\r\nvar poolData = {\r\n  UserPoolId: \"us-east-1_rIytU64lO\",\r\n  ClientId: \"6qbs04aqbt3htai8l8pikfbivl\",\r\n};\r\nconst userPool = new CognitoUserPool(poolData);\r\n\r\nconst TopNav = () => {\r\n  const dispatch = useDispatch();\r\n  const { auth } = useSelector((state) => ({ ...state }));\r\n  const history = useHistory();\r\n\r\n  const logout = () => {\r\n    dispatch({\r\n      type: \"LOGOUT\",\r\n      payload: null,\r\n    });\r\n\r\n    var email = localStorage.getItem(\"email\");\r\n\r\n    axios\r\n      .post(\r\n        \"https://us-central1-serverlesbandb.cloudfunctions.net/userlogoutactivity\",\r\n        {\r\n          email,\r\n        }\r\n      )\r\n      .then(() => {\r\n        console.log(\"Logged Out \");\r\n\r\n        const currentCognitoUser = userPool.getCurrentUser();\r\n        if (currentCognitoUser !== null) {\r\n          currentCognitoUser.signOut();\r\n        }\r\n\r\n        window.localStorage.removeItem(\"jwttoken\");\r\n        window.localStorage.removeItem(\"email\");\r\n        window.localStorage.removeItem(\"userid\");\r\n        window.localStorage.removeItem(\"cognitousername\");\r\n      });\r\n\r\n    history.push(\"/login\");\r\n  };\r\n\r\n  return (\r\n    <div className=\"nav bg-light d-flex justify-content-between\">\r\n      <Link className=\"nav-link\" to=\"/\">\r\n        Home\r\n      </Link>\r\n      <Link className=\"nav-link\" to=\"/menu\">\r\n        Food Menu\r\n      </Link>\r\n      <Link className=\"nav-link\" to=\"/tours\">\r\n        Tour Packages\r\n      </Link>\r\n      {auth !== null && (\r\n        <Link className=\"nav-link\" params={{ auth: auth }} to=\"/feedback\">\r\n          Feedback\r\n        </Link>\r\n      )}\r\n      {auth !== null && (\r\n        <Link className=\"nav-link\" params={{ auth: auth }} to=\"/notifications\">\r\n          Notifications\r\n        </Link>\r\n      )}\r\n\r\n      <a\r\n        href=\"https://datastudio.google.com/embed/reporting/4c0f02d9-6bef-4f97-907c-206f5a8ccb8b/page/tEnnC\"\r\n        target=\"_blank\"\r\n      >\r\n        Visualization\r\n      </a>\r\n\r\n      {auth !== null && (\r\n        <a className=\"nav-link pointer\" href=\"#\" onClick={logout}>\r\n          Logout\r\n        </a>\r\n      )}\r\n\r\n      {auth === null && (\r\n        <>\r\n          <Link className=\"nav-link\" to=\"/login\">\r\n            Login\r\n          </Link>\r\n          <Link className=\"nav-link\" to=\"/register\">\r\n            Register\r\n          </Link>\r\n        </>\r\n      )}\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default TopNav;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\booking\\Home.js",
+  [
+    "123"
+  ],
+  "import { useState, useEffect } from \"react\";\r\nimport { allHotels } from \"../actions/hotel\";\r\nimport SmallCard from \"../components/cards/SmallCard\";\r\nimport { useSelector, useDispatch } from \"react-redux\";\r\nimport LexChat from \"react-lex-plus\";\r\n\r\nconst Home = () => {\r\n  const [hotels, setHotels] = useState([]);\r\n  const { auth } = useSelector((state) => ({ ...state }));\r\n\r\n  useEffect(() => {\r\n    loadAllhotels();\r\n  }, []);\r\n\r\n  const loadAllhotels = async () => {\r\n    let res = await allHotels();\r\n    setHotels(res.data.body);\r\n  };\r\n\r\n  const loginBot = () => {\r\n    return (\r\n      <LexChat\r\n        botName=\"HotelAssist\"\r\n        IdentityPoolId=\"us-east-1:53305051-7ef5-4bd4-9208-118b97c3e4a4\"\r\n        placeholder=\"Placeholder text\"\r\n        backgroundColor=\"##D9D9D9\"\r\n        height={430}\r\n        region=\"us-east-1\"\r\n        headerText=\"Online Support\"\r\n        sessionAttributes={{ userid: localStorage.getItem(\"userid\") }}\r\n        headerStyle={{ backgroundColor: \"#000000\", fontSize: \"30px\" }}\r\n        greeting={\"Hello, how can I help?\"}\r\n      />\r\n    );\r\n  };\r\n\r\n  // const unauthorizedBot = () => {\r\n  //   return (\r\n  //     <LexChat\r\n  //       botName=\"AssistHotelNotRegistered\"\r\n  //       IdentityPoolId=\"us-east-1:53305051-7ef5-4bd4-9208-118b97c3e4a4\"\r\n  //       placeholder=\"Placeholder text\"\r\n  //       backgroundColor=\"##D9D9D9\"\r\n  //       height={430}\r\n  //       region=\"us-east-1\"\r\n  //       headerText=\"Online Support (General queries)\"\r\n  //       headerStyle={{ backgroundColor: \"#000000\", fontSize: \"30px\" }}\r\n  //       sessionAttributes={{ userid: localStorage.getItem(\"userid\") }}\r\n  //       greeting={\"Hello, how can I help?\"}\r\n  //     />\r\n  //   );\r\n  // };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>All Rooms</h1>\r\n      </div>\r\n\r\n      <div className=\"container-fluid\">\r\n        <br />\r\n        {hotels.map((h) => (\r\n          <SmallCard key={h.id} h={h} />\r\n        ))}\r\n      </div>\r\n      {auth && auth ? loginBot() : loginBot()}\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Home;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\booking\\Tour.js",
+  [
+    "124"
+  ],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\hotels\\ViewHotel.js",
+  [
+    "125",
+    "126",
+    "127",
+    "128",
+    "129"
+  ],
+  "import React, { useState, useEffect } from \"react\";\r\nimport { useStore } from \"react-redux\";\r\nimport { hotelById, diffDays, isAlreadyBooked } from \"../actions/hotel\";\r\nimport moment from \"moment\";\r\nimport { useSelector } from \"react-redux\";\r\nimport { bookRoom } from \"../actions/hotel\";\r\nimport { toast } from \"react-toastify\";\r\n\r\nconst ViewHotel = ({ match, history }) => {\r\n  const [hotel, setHotel] = useState({});\r\n  // const [image, setImage] = useState(\"\");\r\n  const [loading, setLoading] = useState(false);\r\n  const [alreadyBooked, setAlreadyBooked] = useState(false);\r\n\r\n  const { auth } = useSelector((state) => ({ ...state }));\r\n\r\n  useEffect(() => {\r\n    loadHotel();\r\n  }, []);\r\n\r\n  const loadHotel = async () => {\r\n    let res = await hotelById(match.params.hotelId);\r\n    setHotel(res.data.body);\r\n  };\r\n\r\n  const handleClick = async (e) => {\r\n    e.preventDefault();\r\n\r\n    if (!auth) {\r\n      history.push(\"/login\");\r\n      return;\r\n    }\r\n\r\n    setLoading(true);\r\n    if (!auth) history.push(\"/login\");\r\n    const userId = localStorage.getItem(\"userid\");\r\n    const email = localStorage.getItem(\"email\");\r\n    const bookingData = {\r\n      userid: userId,\r\n      roomid: hotel.id,\r\n      email,\r\n      To: hotel.to,\r\n      From: hotel.from,\r\n      image: hotel.image,\r\n      description: hotel.description,\r\n      title: hotel.title,\r\n    };\r\n\r\n    const response = await bookRoom(bookingData);\r\n    if (response.status === 200) {\r\n      setLoading(false);\r\n      toast.success(\"Booking successful\");\r\n      history.push(\"/\");\r\n    } else {\r\n      setLoading(false);\r\n      toast.error(\"Booking failed\");\r\n    }\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>{hotel.title}</h1>\r\n      </div>\r\n      <div className=\"container-fluid\">\r\n        <div className=\"row\">\r\n          <div className=\"col-md-6\">\r\n            <br />\r\n            <img\r\n              src={hotel.image}\r\n              alt={hotel.title}\r\n              className=\"img img-fluid m-2\"\r\n            />\r\n          </div>\r\n\r\n          <div className=\"col-md-6\">\r\n            <br />\r\n            <b>{hotel.description}</b>\r\n            <p\r\n              className=\"alert alert-info mt-3\"\r\n              style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n            >\r\n              ${hotel.dailyRate}\r\n            </p>\r\n            <p className=\"card-text\">\r\n              <span className=\"float-right text-primary\">\r\n                for {diffDays(hotel.from, hotel.to)}{\" \"}\r\n                {diffDays(hotel.from, hotel.to) <= 1 ? \" day\" : \" days\"}\r\n              </span>\r\n            </p>\r\n            <p>\r\n              From <br />{\" \"}\r\n              {moment(new Date(hotel.from)).format(\"MMMM Do YYYY, h:mm:ss a\")}\r\n            </p>\r\n            <p>\r\n              To <br />{\" \"}\r\n              {moment(new Date(hotel.to)).format(\"MMMM Do YYYY, h:mm:ss a\")}\r\n            </p>\r\n            {/* <i>Posted by {hotel.postedBy && hotel.postedBy.name}</i> */}\r\n            <br />\r\n            <button\r\n              onClick={handleClick}\r\n              className=\"btn btn-block btn-lg btn-primary mt-3\"\r\n              disabled={loading || !auth}\r\n            >\r\n              {loading\r\n                ? \"Loading...\"\r\n                : // : alreadyBooked\r\n                // ? \"Already Booked\"\r\n                auth && auth\r\n                ? \"Book Now\"\r\n                : \"Login to Book\"}\r\n            </button>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default ViewHotel;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\booking\\Menu.js",
+  [
+    "130"
+  ],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\Login.js",
+  [
+    "131",
+    "132"
+  ],
+  "import { useState } from \"react\";\r\nimport { toast } from \"react-toastify\";\r\nimport { login } from \"../actions/auth\";\r\n\r\nimport { useDispatch } from \"react-redux\";\r\nimport {\r\n  CognitoUserPool,\r\n  CognitoUserAttribute,\r\n  CognitoUser,\r\n  AuthenticationDetails,\r\n} from \"amazon-cognito-identity-js\";\r\n\r\nconst Login = ({ history }) => {\r\n  const dispatch = useDispatch();\r\n  \r\n\r\n  var poolData = {\r\n    UserPoolId: \"us-east-1_rIytU64lO\",\r\n    ClientId: \"6qbs04aqbt3htai8l8pikfbivl\",\r\n  };\r\n\r\n  const userPool = new CognitoUserPool(poolData);\r\n\r\n  const [email, setEmail] = useState(\"\");\r\n  const [emailerror, setEmailerror] = useState();\r\n  const [password, setPassword] = useState(\"\");\r\n\r\n  const validatEmail = (value) => {\r\n    const regexforemail =\r\n      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/;\r\n    if (regexforemail.test(value)) {\r\n      setEmail(value);\r\n      setEmailerror(null);\r\n    } else {\r\n      setEmail(value);\r\n      setEmailerror(\"Enter valid Email Address\");\r\n    }\r\n  };\r\n\r\n  const handleSubmit = (event) => {\r\n    if (emailerror) {\r\n      return;\r\n    } else {\r\n      const cognitoUser = new CognitoUser({ Username: email, Pool: userPool });\r\n      const authenticationDetails = new AuthenticationDetails({\r\n        Username: email,\r\n        Password: password,\r\n      });\r\n\r\n      event.preventDefault();\r\n\r\n      cognitoUser.authenticateUser(authenticationDetails, {\r\n        onSuccess: function (result) {\r\n          console.log(result.idToken.payload);\r\n          console.log(result);\r\n          var response = result.idToken.payload;\r\n          var userid = response[\"custom:userid\"];\r\n          var cognitousername = response[\"cognito:username\"];\r\n\r\n          console.log(\"userid: \" + userid);\r\n          console.log(\"token: \" + result.getIdToken().getJwtToken());\r\n          console.log(\"cognitousername: \" + cognitousername);\r\n\r\n          localStorage.setItem(\"jwttoken\", result.getIdToken().getJwtToken());\r\n          localStorage.setItem(\"email\", result.idToken.payload.email);\r\n          localStorage.setItem(\"userid\", userid);\r\n          localStorage.setItem(\"cognitousername\", cognitousername);\r\n\r\n          console.log(\"LoggedIn\");\r\n          dispatch({\r\n            type: \"LOGGED_IN_USER\",\r\n            payload: result,\r\n          });\r\n          toast.success(\"Logged In\");\r\n          history.push(\"/\");\r\n        },\r\n        onFailure: function (err) {\r\n          toast.error(\"Login failed\");\r\n          console.log(err.message);\r\n        },\r\n      });\r\n    }\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>Login</h1>\r\n      </div>\r\n\r\n      <div className=\"container\">\r\n        <div className=\"row\">\r\n          <div className=\"col-md-6 offset-md-3\">\r\n            <form onSubmit={handleSubmit} className=\"mt-3\">\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Email address</label>\r\n                <input\r\n                  type=\"email\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter email\"\r\n                  value={email}\r\n                  onChange={(event) => validatEmail(event.target.value)}\r\n                />\r\n              </div>\r\n              {emailerror && <p>{emailerror}</p>}\r\n              <br />\r\n\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Password</label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={password}\r\n                  onChange={(event) => setPassword(event.target.value)}\r\n                />\r\n              </div>\r\n              <br />\r\n\r\n              <button\r\n                disabled={!email || !password}\r\n                className=\"btn btn-primary\"\r\n              >\r\n                Submit\r\n              </button>\r\n            </form>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Login;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\Register.js",
+  [
+    "133",
+    "134",
+    "135"
+  ],
+  "import { useState } from \"react\";\r\n\r\nimport axios from \"axios\";\r\nimport { toast } from \"react-toastify\";\r\nimport { register } from \"../actions/auth\";\r\nimport {\r\n  CognitoUserPool,\r\n  CognitoUserAttribute,\r\n  CognitoUser,\r\n  AuthenticationDetails,\r\n} from \"amazon-cognito-identity-js\";\r\n\r\nconst shortUUID = require(\"short-uuid\");\r\nvar poolData = {\r\n  UserPoolId: \"us-east-1_rIytU64lO\",\r\n  ClientId: \"6qbs04aqbt3htai8l8pikfbivl\",\r\n};\r\n\r\nconst userPool = new CognitoUserPool(poolData);\r\n\r\nconst Register = ({ history }) => {\r\n  const [email, setEmail] = useState(\"\");\r\n  const [emailerror, setEmailerror] = useState();\r\n  const [name, setName] = useState(\"\");\r\n  const [ferror, setFerror] = useState();\r\n  const [password, setPassword] = useState(\"\");\r\n  const [passworderror, setPassworderror] = useState();\r\n  const [birthplaceanswer, setBirthPlaceAnswer] = useState(\"\");\r\n  const [birthplaceanswererror, setBirthPlaceAnswererror] = useState();\r\n  const [foodanswer, setFoodAnswer] = useState(\"\");\r\n  const [foodanswererror, setFoodAnswererror] = useState();\r\n  const [coloranswer, setColorAnswer] = useState(\"\");\r\n  const [coloranswererror, setColorAnswererror] = useState();\r\n  const [key, setKey] = useState(\"\");\r\n  const [keyerror, setKeyerror] = useState();\r\n\r\n  const validateName = (value) => {\r\n    const regexforname = /^[A-Za-z ]+$/;\r\n    if (regexforname.test(value)) {\r\n      setName(value);\r\n      setFerror(null);\r\n    } else {\r\n      setName(value);\r\n      setFerror(\"Enter only letters\");\r\n    }\r\n  };\r\n\r\n  const validatEmail = (value) => {\r\n    const regexforemail =\r\n      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/;\r\n    if (regexforemail.test(value)) {\r\n      setEmail(value);\r\n      setEmailerror(null);\r\n    } else {\r\n      setEmail(value);\r\n      setEmailerror(\"Enter valid Email Address\");\r\n    }\r\n  };\r\n\r\n  const validatPassword = (value) => {\r\n    const regexforpassword = /^[a-zA-Z0-9!@#$%^&*]{8,25}$/;\r\n    if (regexforpassword.test(value)) {\r\n      setPassword(value);\r\n      setPassworderror(null);\r\n    } else {\r\n      setPassword(value);\r\n      setPassworderror(\r\n        \"Password must have minimum 8 letter and one special character\"\r\n      );\r\n    }\r\n  };\r\n\r\n  const validateBirthPlaceAnswer = (value) => {\r\n    const regexforname = /^[A-Za-z ]+$/;\r\n    if (regexforname.test(value)) {\r\n      setBirthPlaceAnswer(value);\r\n      setBirthPlaceAnswererror(null);\r\n    } else {\r\n      setBirthPlaceAnswer(value);\r\n      setBirthPlaceAnswererror(\"Enter only letters\");\r\n    }\r\n  };\r\n\r\n  const validateFoodAnswer = (value) => {\r\n    const regexforname = /^[A-Za-z ]+$/;\r\n    if (regexforname.test(value)) {\r\n      setFoodAnswer(value);\r\n      setFoodAnswererror(null);\r\n    } else {\r\n      setFoodAnswer(value);\r\n      setFoodAnswererror(\"Enter only letters\");\r\n    }\r\n  };\r\n\r\n  const validateColorAnswer = (value) => {\r\n    const regexforname = /^[A-Za-z ]+$/;\r\n    if (regexforname.test(value)) {\r\n      setColorAnswer(value);\r\n      setColorAnswererror(null);\r\n    } else {\r\n      setColorAnswer(value);\r\n      setColorAnswererror(\"Enter only letters\");\r\n    }\r\n  };\r\n\r\n  const validateKey = (value) => {\r\n    const regexforkey = /^([1-9])$/;\r\n    if (regexforkey.test(value)) {\r\n      setKey(value);\r\n      setKeyerror(null);\r\n    } else {\r\n      setKey(value);\r\n      setKeyerror(\"Enter number between 1 to 9\");\r\n    }\r\n  };\r\n\r\n  const handleSubmit = (event) => {\r\n    if (\r\n      emailerror ||\r\n      ferror ||\r\n      passworderror ||\r\n      birthplaceanswererror ||\r\n      foodanswererror ||\r\n      coloranswererror\r\n    ) {\r\n      return;\r\n    } else {\r\n      event.preventDefault();\r\n\r\n      var userid = shortUUID.generate();\r\n      console.log(userid);\r\n\r\n      const attributeList = [\r\n        new CognitoUserAttribute({\r\n          Name: \"email\",\r\n          Value: email,\r\n        }),\r\n        new CognitoUserAttribute({\r\n          Name: \"name\",\r\n          Value: name,\r\n        }),\r\n        new CognitoUserAttribute({\r\n          Name: \"custom:userid\",\r\n          Value: userid.toString(),\r\n        }),\r\n      ];\r\n\r\n      userPool.signUp(\r\n        email,\r\n        password,\r\n        attributeList,\r\n        null,\r\n        function (err, result) {\r\n          if (err) {\r\n            alert(err.message || JSON.stringify(err));\r\n            return;\r\n          }\r\n          var cognitoUser = result.user;\r\n\r\n          axios\r\n            .post(\r\n              \"https://k6isuvi4x0.execute-api.us-east-1.amazonaws.com/test/register\",\r\n              {\r\n                userid,\r\n                email,\r\n                birthplaceanswer,\r\n                foodanswer,\r\n                coloranswer,\r\n              }\r\n            )\r\n            .then(() => {\r\n              console.log(\"user name is \" + cognitoUser.getUsername());\r\n            });\r\n\r\n          axios\r\n            .post(\r\n              \"https://us-central1-serverlesbandb.cloudfunctions.net/ceaserkeyregister\",\r\n              {\r\n                email,\r\n                key,\r\n              }\r\n            )\r\n            .then(() => {\r\n              console.log(\"key is \" + key);\r\n            });\r\n          toast.success(\"Registration successful\");\r\n          history.push(\"/login\");\r\n\r\n          console.log(\"user name is \" + cognitoUser.getUsername());\r\n        }\r\n      );\r\n    }\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>Register</h1>\r\n      </div>\r\n\r\n      <div className=\"container\">\r\n        <div className=\"row\">\r\n          <div className=\"col-md-6 offset-md-3\">\r\n            <form onSubmit={handleSubmit} className=\"mt-3\">\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Your name</label>\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter name\"\r\n                  value={name}\r\n                  onChange={(event) => validateName(event.target.value)}\r\n                />\r\n              </div>\r\n              {ferror && <p>{ferror}</p>}\r\n              <br />\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Email address</label>\r\n                <input\r\n                  type=\"email\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter email\"\r\n                  value={email}\r\n                  onChange={(event) => validatEmail(event.target.value)}\r\n                />\r\n              </div>\r\n              {emailerror && <p>{emailerror}</p>}\r\n              <br />\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">Password</label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={password}\r\n                  onChange={(event) => validatPassword(event.target.value)}\r\n                />\r\n              </div>\r\n              {passworderror && <p>{passworderror}</p>}\r\n              <br />\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">What is your birth place:</label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={birthplaceanswer}\r\n                  onChange={(event) =>\r\n                    validateBirthPlaceAnswer(event.target.value)\r\n                  }\r\n                />\r\n              </div>\r\n              {birthplaceanswererror && <p>{birthplaceanswererror}</p>}\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">\r\n                  What is your favorite food:\r\n                </label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={foodanswer}\r\n                  onChange={(event) => validateFoodAnswer(event.target.value)}\r\n                />\r\n              </div>\r\n              {foodanswererror && <p>{foodanswererror}</p>}\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\">\r\n                  {\" \"}\r\n                  What is your favorite color:\r\n                </label>\r\n                <input\r\n                  type=\"password\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter password\"\r\n                  value={coloranswer}\r\n                  onChange={(event) => validateColorAnswer(event.target.value)}\r\n                />\r\n              </div>\r\n              {coloranswererror && <p>{coloranswererror}</p>}\r\n              <div className=\"form-group mb-3\">\r\n                <label className=\"form-label\"> Enter your cipher key:</label>\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control\"\r\n                  placeholder=\"Enter key\"\r\n                  value={key}\r\n                  onChange={(event) => validateKey(event.target.value)}\r\n                />\r\n              </div>\r\n              {keyerror && <p>{keyerror}</p>}\r\n\r\n              <br />\r\n              <button\r\n                disabled={!name || !email || !password}\r\n                className=\"btn btn-primary\"\r\n              >\r\n                Submit\r\n              </button>\r\n            </form>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Register;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\user\\feedback.js",
+  [
+    "136"
+  ],
+  "import React from \"react\";\r\nimport axios from \"axios\";\r\nimport { useState } from \"react\";\r\nimport { ToastContainer, toast } from 'react-toastify';\r\nimport 'react-toastify/dist/ReactToastify.css';\r\n\r\nfunction Feedback() {\r\n  const [feedback, setfeedback] = useState(\"\");\r\n  const notify = () => toast(\"Feedback added successuly!\");\r\n\r\n  const onSubmit = (event) => {\r\n    const feedbackobj = { feedback_desc: feedback ,userid:localStorage.getItem(\"userid\")};\r\n    event.preventDefault();\r\n    axios\r\n      .post(\r\n        \"https://us-central1-serverlesbandb.cloudfunctions.net/feedbacksentimentanalyzer\",\r\n        feedbackobj\r\n      )\r\n      .then((result) => {\r\n        console.log(result.data);\r\n      })\r\n      \r\n      .catch((err) => {\r\n        console.error(err);\r\n      });\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"container-fluid bg-secondary p-5 text-center\">\r\n        <h1>Your Feedback</h1>\r\n      </div>\r\n      <div style={{marginTop:\"100px\",marginLeft:\"500px\"}}>\r\n      <form onSubmit={onSubmit}>\r\n        <span className=\"formtext\"></span>\r\n        <input\r\n          type=\"text\"\r\n          onChange={(e) => {\r\n            setfeedback(e.target.value);\r\n          }}\r\n          value={feedback}\r\n          placeholder=\"Enter your feedback here\"\r\n          style={{width: \"370px\",height:\"100px\"}}\r\n          required\r\n          name=\"feedback\"\r\n        /> <br/>\r\n        <button  onClick={notify} style={{marginTop:\"20px\",marginLeft:\"140px\",color:\"green\"}}>submit!</button>\r\n      </form></div>\r\n      \r\n      \r\n      \r\n    </>\r\n  );\r\n}\r\n\r\nexport default Feedback;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\CeaserCipher.js",
+  [
+    "137",
+    "138",
+    "139",
+    "140"
+  ],
+  "import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\nimport { generateEncryptedCipher, decryptCipher } from \"./CipherBackend\";\r\n\r\nconst cipherText = generateEncryptedCipher(); \r\n\r\nconst CeaserCipher = ({ history }) => {\r\n  const [decryptedAnswer, setDecryptedanswer] = useState(\"\");\r\n  const [error, setError] = useState(\"\");\r\n\r\n  const handleSubmit = (event) => {\r\n    event.preventDefault();\r\n    var userid = localStorage.getItem(\"userid\");\r\n    var email = localStorage.getItem(\"email\");\r\n    var ciphertext = cipherText\r\n    var error = \"\";\r\n\r\n    axios\r\n      .post(\r\n        \"https://us-central1-serverlesbandb.cloudfunctions.net/ceaser\",\r\n        {\r\n          email,\r\n          ciphertext,\r\n          decryptedAnswer\r\n        }\r\n      )\r\n      .then(\r\n        (response) => {\r\n            console.log(response)\r\n            if (response?.data === \"success\"){\r\n                setError(\"\");\r\n                history.push(\"/\");\r\n                console.log(\"Login success!\");\r\n            } else {\r\n                setError(\"you have entered incorrect decrption!\");\r\n                console.log(\"Login failed!\");\r\n            }\r\n        },\r\n        (error) => {\r\n          console.log(error);\r\n        }\r\n      );\r\n  };\r\n\r\n  return (\r\n    <div className=\"container\">\r\n      <div className=\"row\">\r\n        <div className=\"col-md-6 mt-5 mx-auto\">\r\n          <center>\r\n            <h1>Ceaser Cipher</h1>\r\n\r\n            <p>Decrypt Ceaser Cipher: {cipherText}</p>\r\n\r\n            <form onSubmit={handleSubmit}>\r\n              <label>\r\n                Please enter decrypted answer with your key:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={decryptedAnswer}\r\n                  name=\"decryptedAnswer\"\r\n                  onChange={(event) => setDecryptedanswer(event.target.value)}\r\n                />\r\n              </label>\r\n              {error && <p>{error}</p>}\r\n              <br />\r\n\r\n              <input type=\"submit\" value=\"Submit\" />\r\n            </form>\r\n          </center>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default CeaserCipher;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\reducers\\auth.js",
+  [],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\cards\\SmallCard.js",
+  [
+    "141",
+    "142",
+    "143",
+    "144",
+    "145",
+    "146"
+  ],
+  "import { diffDays } from \"../../actions/hotel\";\r\nimport { useHistory, Link } from \"react-router-dom\";\r\nimport { EditOutlined, DeleteOutlined } from \"@ant-design/icons\";\r\n\r\nconst SmallCard = ({\r\n  h,\r\n  handleHotelDelete = (f) => f,\r\n  owner = false,\r\n  showViewMoreButton = true,\r\n}) => {\r\n  const history = useHistory();\r\n  return (\r\n    <>\r\n      <div className=\"card mb-3\">\r\n        <div className=\"row no-gutters\">\r\n          <div className=\"col-md-4\">\r\n            {h.image && h.image ? (\r\n              <img\r\n                src={h.image}\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid rounded mx-auto d-block\"\r\n              />\r\n            ) : (\r\n              <img\r\n                src=\"https://via.placeholder.com/900x500.png?text=MERN+Booking\"\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid\"\r\n              />\r\n            )}\r\n          </div>\r\n          <div className=\"col-md-8\">\r\n            <div className=\"card-body\">\r\n              <h3 className=\"card-title\">{h.title} </h3>\r\n              <p\r\n                className=\"alert alert-info\"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Room type: {h.category}\r\n              </p>\r\n              <p className=\"card-text\">{`${h.description}`}</p>\r\n\r\n              <p\r\n                className=\"alert alert-warning\"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Price: ${h.dailyRate}\r\n              </p>\r\n\r\n              <div className=\"d-flex justify-content-between h4\">\r\n                {showViewMoreButton && (\r\n                  <button\r\n                    onClick={() => history.push(`/hotel/${h.id}`)}\r\n                    className=\"btn btn-primary\"\r\n                  >\r\n                    Show more\r\n                  </button>\r\n                )}\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default SmallCard;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\actions\\auth.js",
+  [
+    "147"
+  ],
+  "import axios from \"axios\";\r\n\r\n// export const register = async (user) =>\r\n//   await axios.post(`${process.env.REACT_APP_API}/register`, user);\r\n\r\n// export const login = async (user) =>\r\n//   await axios.post(`${process.env.REACT_APP_API}/login`, user);\r\n\r\n// update user in local storage\r\nexport const updateUserInLocalStorage = (user, next) => {\r\n  if (window.localStorage.getItem(\"auth\")) {\r\n    let auth = JSON.parse(localStorage.getItem(\"auth\"));\r\n    auth.user = user;\r\n    localStorage.setItem(\"auth\", JSON.stringify(auth));\r\n    next();\r\n  }\r\n};\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\auth\\CipherBackend.js",
+  [],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\cards\\TourCard.js",
+  [
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154"
+  ],
+  "import { diffDays } from \"../../actions/hotel\";\r\nimport { useHistory, Link } from \"react-router-dom\";\r\nimport { EditOutlined, DeleteOutlined } from \"@ant-design/icons\";\r\nimport { useSelector } from \"react-redux\";\r\nimport { useState, useEffect } from \"react\";\r\nimport { bookTour } from \"../../actions/hotel\";\r\nimport { toast } from \"react-toastify\";\r\nconst TourCard = ({\r\n  m,\r\n  handleHotelDelete = (f) => f,\r\n  owner = false,\r\n  showViewMoreButton = true,\r\n}) => {\r\n  const history = useHistory();\r\n\r\n  const [loading, setLoading] = useState(false);\r\n\r\n  const { auth } = useSelector((state) => ({ ...state }));\r\n\r\n  const handleClick = async (e) => {\r\n    e.preventDefault();\r\n    const email = localStorage.getItem(\"email\");\r\n    const userid = localStorage.getItem(\"userid\");\r\n\r\n    const orderData = {\r\n      email,\r\n      image: m.image,\r\n      userid,\r\n      description: m.description,\r\n      id: m.id,\r\n      price: m.price,\r\n      title: m.title,\r\n    };\r\n    const response = await bookTour(orderData);\r\n    if (response.status === 200) {\r\n      setLoading(false);\r\n      toast.success(\"Order successful\");\r\n      history.push(\"/\");\r\n    } else {\r\n      setLoading(false);\r\n      toast.error(\"Order failed\");\r\n    }\r\n  };\r\n  return (\r\n    <>\r\n      <div className=\"card mb-3\">\r\n        <div className=\"row no-gutters\">\r\n          <div className=\"col-md-4\">\r\n            {m.image && m.image ? (\r\n              <img\r\n                src={m.image}\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img rounded mx-auto d-block\"\r\n                style={{ maxHeight: \"550px\", maxWidth: \"500px\" }}\r\n              />\r\n            ) : (\r\n              <img\r\n                src=\"https://via.placeholder.com/900x500.png?text=MERN+Booking\"\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img rounded mx-auto d-block\"\r\n              />\r\n            )}\r\n          </div>\r\n          <div className=\"col-md-8\">\r\n            <div className=\"card-body\">\r\n              <h3 className=\"card-title\">{m.title} </h3>\r\n\r\n              <p className=\"card-text\">{`${m.description}`}</p>\r\n\r\n              <p\r\n                className=\"alert alert-warning \"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Price: ${m.price}\r\n              </p>\r\n\r\n              <div className=\"d-flex justify-content-between h4\">\r\n                <button\r\n                  onClick={handleClick}\r\n                  className=\"btn btn-block btn-lg btn-primary mt-3\"\r\n                  disabled={loading || !auth}\r\n                >\r\n                  {loading\r\n                    ? \"Loading...\"\r\n                    : // : alreadyBooked\r\n                    // ? \"Already Booked\"\r\n                    auth && auth\r\n                    ? \"Book Now\"\r\n                    : \"Login to Order\"}\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default TourCard;\r\n",
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\actions\\hotel.js",
+  [],
+  "D:\\gitMainServerless\\csci5410_group30\\client\\src\\components\\cards\\MenuCard.js",
+  [
+    "155",
+    "156",
+    "157",
+    "158",
+    "159",
+    "160",
+    "161"
+  ],
+  "import { diffDays } from \"../../actions/hotel\";\r\nimport { useHistory, Link } from \"react-router-dom\";\r\nimport { EditOutlined, DeleteOutlined } from \"@ant-design/icons\";\r\nimport { useState, useEffect } from \"react\";\r\nimport { useSelector } from \"react-redux\";\r\nimport { bookMeal } from \"../../actions/hotel\";\r\nimport { toast } from \"react-toastify\";\r\nconst MenuCard = ({\r\n  m,\r\n  handleHotelDelete = (f) => f,\r\n  owner = false,\r\n  showViewMoreButton = true,\r\n}) => {\r\n  const history = useHistory();\r\n\r\n  const [loading, setLoading] = useState(false);\r\n\r\n  const { auth } = useSelector((state) => ({ ...state }));\r\n\r\n  const handleClick = async (e) => {\r\n    e.preventDefault();\r\n    const email = localStorage.getItem(\"email\");\r\n    const userid = localStorage.getItem(\"userid\");\r\n\r\n    const orderData = {\r\n      email,\r\n      image: m.image,\r\n      userid,\r\n      description: m.description,\r\n      id: m.id,\r\n      price: m.price,\r\n      title: m.title,\r\n    };\r\n    const response = await bookMeal(orderData);\r\n    console.log(response);\r\n    if (response.status === 200) {\r\n      setLoading(false);\r\n      toast.success(\"Order successful\");\r\n      history.push(\"/\");\r\n    } else {\r\n      setLoading(false);\r\n      toast.error(\"Order failed\");\r\n    }\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className=\"card mb-3\">\r\n        <div className=\"row no-gutters\">\r\n          <div className=\"col-md-4\">\r\n            {m.image && m.image ? (\r\n              <img\r\n                src={m.image}\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid rounded mx-auto d-block\"\r\n              />\r\n            ) : (\r\n              <img\r\n                src=\"https://via.placeholder.com/900x500.png?text=MERN+Booking\"\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid\"\r\n              />\r\n            )}\r\n          </div>\r\n          <div className=\"col-md-8\">\r\n            <div className=\"card-body\">\r\n              <h3 className=\"card-title\">{m.title} </h3>\r\n\r\n              <p className=\"card-text\">{`${m.description}`}</p>\r\n\r\n              <p\r\n                className=\"alert alert-warning \"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Price: ${m.price}\r\n              </p>\r\n\r\n              <div className=\"d-flex justify-content-between h4\">\r\n                <button\r\n                  onClick={handleClick}\r\n                  className=\"btn btn-block btn-lg btn-primary mt-3\"\r\n                  disabled={loading || !auth}\r\n                >\r\n                  {loading\r\n                    ? \"Loading...\"\r\n                    : // : alreadyBooked\r\n                    // ? \"Already Booked\"\r\n                    auth && auth\r\n                    ? \"Order Now\"\r\n                    : \"Login to Order\"}\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default MenuCard;\r\n",
+  {
+    "ruleId": "162",
+    "replacedBy": "163"
+  },
+  {
+    "ruleId": "164",
+    "replacedBy": "165"
+  },
+  {
+    "ruleId": "166",
+    "severity": 1,
+    "message": "167",
+    "line": 19,
+    "column": 6,
+    "nodeType": "168",
+    "endLine": 19,
+    "endColumn": 8,
+    "suggestions": "169"
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "171",
+    "line": 2,
+    "column": 17,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "174",
+    "severity": 1,
+    "message": "175",
+    "line": 21,
+    "column": 9,
+    "nodeType": "176",
+    "messageId": "177",
+    "endLine": 25,
+    "endColumn": 10,
+    "fix": "178"
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "179",
+    "line": 8,
+    "column": 3,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 8,
+    "endColumn": 23
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "180",
+    "line": 9,
+    "column": 3,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 9,
+    "endColumn": 14
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "181",
+    "line": 10,
+    "column": 3,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 10,
+    "endColumn": 24
+  },
+  {
+    "ruleId": "174",
+    "severity": 1,
+    "message": "175",
+    "line": 78,
+    "column": 7,
+    "nodeType": "176",
+    "messageId": "177",
+    "endLine": 81,
+    "endColumn": 8,
+    "fix": "182"
+  },
+  {
+    "ruleId": "183",
+    "severity": 1,
+    "message": "184",
+    "line": 86,
+    "column": 9,
+    "nodeType": "176",
+    "endLine": 86,
+    "endColumn": 67
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "185",
+    "line": 4,
+    "column": 23,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 4,
+    "endColumn": 34
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "185",
+    "line": 3,
+    "column": 23,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 34
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "186",
+    "line": 2,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 2,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "187",
+    "line": 3,
+    "column": 31,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 46
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "188",
+    "line": 13,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 13,
+    "endColumn": 23
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "189",
+    "line": 13,
+    "column": 25,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 13,
+    "endColumn": 41
+  },
+  {
+    "ruleId": "166",
+    "severity": 1,
+    "message": "190",
+    "line": 19,
+    "column": 6,
+    "nodeType": "168",
+    "endLine": 19,
+    "endColumn": 8,
+    "suggestions": "191"
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "185",
+    "line": 4,
+    "column": 23,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 4,
+    "endColumn": 34
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "192",
+    "line": 3,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 15
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "179",
+    "line": 8,
+    "column": 3,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 8,
+    "endColumn": 23
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "193",
+    "line": 5,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 5,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "180",
+    "line": 9,
+    "column": 3,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 9,
+    "endColumn": 14
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "181",
+    "line": 10,
+    "column": 3,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 10,
+    "endColumn": 24
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "194",
+    "line": 4,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 4,
+    "endColumn": 24
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "171",
+    "line": 2,
+    "column": 17,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "195",
+    "line": 3,
+    "column": 35,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 48
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "196",
+    "line": 13,
+    "column": 9,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 13,
+    "endColumn": 15
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "197",
+    "line": 16,
+    "column": 9,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 16,
+    "endColumn": 14
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "198",
+    "line": 1,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 1,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "199",
+    "line": 2,
+    "column": 22,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "200",
+    "line": 3,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 22
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "201",
+    "line": 3,
+    "column": 24,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 38
+  },
+  {
+    "ruleId": "202",
+    "severity": 1,
+    "message": "203",
+    "line": 18,
+    "column": 15,
+    "nodeType": "176",
+    "endLine": 22,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "202",
+    "severity": 1,
+    "message": "203",
+    "line": 24,
+    "column": 15,
+    "nodeType": "176",
+    "endLine": 28,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "204",
+    "line": 1,
+    "column": 8,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 1,
+    "endColumn": 13
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "198",
+    "line": 1,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 1,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "199",
+    "line": 2,
+    "column": 22,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "200",
+    "line": 3,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 22
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "201",
+    "line": 3,
+    "column": 24,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 38
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "171",
+    "line": 5,
+    "column": 20,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 5,
+    "endColumn": 29
+  },
+  {
+    "ruleId": "202",
+    "severity": 1,
+    "message": "203",
+    "line": 50,
+    "column": 15,
+    "nodeType": "176",
+    "endLine": 55,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "202",
+    "severity": 1,
+    "message": "203",
+    "line": 57,
+    "column": 15,
+    "nodeType": "176",
+    "endLine": 61,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "198",
+    "line": 1,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 1,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "199",
+    "line": 2,
+    "column": 22,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "200",
+    "line": 3,
+    "column": 10,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 22
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "201",
+    "line": 3,
+    "column": 24,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 3,
+    "endColumn": 38
+  },
+  {
+    "ruleId": "170",
+    "severity": 1,
+    "message": "171",
+    "line": 4,
+    "column": 20,
+    "nodeType": "172",
+    "messageId": "173",
+    "endLine": 4,
+    "endColumn": 29
+  },
+  {
+    "ruleId": "202",
+    "severity": 1,
+    "message": "203",
+    "line": 52,
+    "column": 15,
+    "nodeType": "176",
+    "endLine": 56,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "202",
+    "severity": 1,
+    "message": "203",
+    "line": 58,
+    "column": 15,
+    "nodeType": "176",
+    "endLine": 62,
+    "endColumn": 17
+  },
+  "no-native-reassign",
+  [
+    "205"
+  ],
+  "no-negated-in-lhs",
+  [
+    "206"
+  ],
+  "react-hooks/exhaustive-deps",
+  "React Hook useEffect has a missing dependency: 'userid'. Either include it or remove the dependency array.",
+  "ArrayExpression",
+  [
+    "207"
+  ],
+  "no-unused-vars",
+  "'useEffect' is defined but never used.",
+  "Identifier",
+  "unusedVar",
+  "react/jsx-no-target-blank",
+  "Using target=\"_blank\" without rel=\"noreferrer\" (which implies rel=\"noopener\") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations",
+  "JSXOpeningElement",
+  "noTargetBlankWithoutNoreferrer",
+  {
+    "range": "208",
+    "text": "209"
+  },
+  "'CognitoUserAttribute' is defined but never used.",
+  "'CognitoUser' is defined but never used.",
+  "'AuthenticationDetails' is defined but never used.",
+  {
+    "range": "210",
+    "text": "209"
+  },
+  "jsx-a11y/anchor-is-valid",
+  "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+  "'useDispatch' is defined but never used.",
+  "'useStore' is defined but never used.",
+  "'isAlreadyBooked' is defined but never used.",
+  "'alreadyBooked' is assigned a value but never used.",
+  "'setAlreadyBooked' is assigned a value but never used.",
+  "React Hook useEffect has a missing dependency: 'loadHotel'. Either include it or remove the dependency array.",
+  [
+    "211"
+  ],
+  "'login' is defined but never used.",
+  "'register' is defined but never used.",
+  "'ToastContainer' is defined but never used.",
+  "'decryptCipher' is defined but never used.",
+  "'userid' is assigned a value but never used.",
+  "'error' is assigned a value but never used.",
+  "'diffDays' is defined but never used.",
+  "'Link' is defined but never used.",
+  "'EditOutlined' is defined but never used.",
+  "'DeleteOutlined' is defined but never used.",
+  "jsx-a11y/img-redundant-alt",
+  "Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.",
+  "'axios' is defined but never used.",
+  "no-global-assign",
+  "no-unsafe-negation",
+  {
+    "desc": "212",
+    "fix": "213"
+  },
+  [
+    667,
+    667
+  ],
+  " rel=\"noreferrer\"",
+  [
+    2184,
+    2184
+  ],
+  {
+    "desc": "214",
+    "fix": "215"
+  },
+  "Update the dependencies array to be: [userid]",
+  {
+    "range": "216",
+    "text": "217"
+  },
+  "Update the dependencies array to be: [loadHotel]",
+  {
+    "range": "218",
+    "text": "219"
+  },
+  [
+    573,
+    575
+  ],
+  "[userid]",
+  [
+    685,
+    687
+  ],
+  "[loadHotel]"
+]

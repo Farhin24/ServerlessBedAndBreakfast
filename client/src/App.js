@@ -3,11 +3,9 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import TopNav from "./components/TopNav";
 import PrivateRoute from "./components/PrivateRoute";
-// components
 import Home from "./booking/Home";
 import Login from "./auth/Login";
 import Register from "./auth/Register";
-import Dashboard from "./user/Dashboard";
 
 import ViewHotel from "./hotels/ViewHotel";
 
@@ -16,29 +14,40 @@ import Tour from "./booking/Tour";
 import Securityquestion from "./auth/Securityquestion";
 import Graph from "./Analytics/Graph";
 import Notifications from "./user/Notifications";
-import Cipher from "./auth/Cipher";
-import Visualizations from "./auth/Visualization";
+import CeaserCipher from "./auth/CeaserCipher";
+import Feedback from "./user/feedback";
+import { useDispatch } from "react-redux";
 
 function App() {
+  const dispatch = useDispatch();
+
+  if (localStorage.getItem("userid") !== null) {
+    dispatch({
+      type: "LOGGED_IN_USER",
+      payload: localStorage.getItem("userid"),
+    });
+  }
+
   return (
-    <BrowserRouter>
-      <TopNav />
-      <ToastContainer position="top-center" />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/menu" component={Menu} />
-        <Route exact path="/tours" component={Tour} />
-        <Route exact path="/login" component={Login} />
-        <Route exact path="/register" component={Register} />
-        <Route exact path="/graph" component={Graph} />
-        <Route exact path="/cipher" component={Cipher} />
-        <Route exact path="/securityquestion" component={Securityquestion} />
-        <PrivateRoute exact path="/dashboard" component={Dashboard} />
-        <PrivateRoute exact path="/notifications" component={Notifications} />
-        <PrivateRoute exact path="/visualizations" component={Visualizations} />
-        <Route exact path="/hotel/:hotelId" component={ViewHotel} />
-      </Switch>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <TopNav />
+        <ToastContainer position="top-right" />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/menu" component={Menu} />
+          <Route exact path="/tours" component={Tour} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/register" component={Register} />
+          <Route exact path="/graph" component={Graph} />
+          <Route exact path="/cipher" component={CeaserCipher} />
+          <Route exact path="/securityquestion" component={Securityquestion} />
+          <PrivateRoute exact path="/notifications" component={Notifications} />
+          <PrivateRoute exact path="/feedback" component={Feedback} />
+          <Route exact path="/hotel/:hotelId" component={ViewHotel} />
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }
 

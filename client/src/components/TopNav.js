@@ -1,6 +1,20 @@
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
+import axios from "axios";
+
+import {
+  CognitoUserPool,
+  CognitoUserAttribute,
+  CognitoUser,
+  AuthenticationDetails,
+} from "amazon-cognito-identity-js";
+
+var poolData = {
+  UserPoolId: "us-east-1_rIytU64lO",
+  ClientId: "6qbs04aqbt3htai8l8pikfbivl",
+};
+const userPool = new CognitoUserPool(poolData);
 
 const TopNav = () => {
   const dispatch = useDispatch();
@@ -12,10 +26,29 @@ const TopNav = () => {
       type: "LOGOUT",
       payload: null,
     });
-    window.localStorage.removeItem("jwttoken");
-    window.localStorage.removeItem("email");
-    window.localStorage.removeItem("userid");
-    window.localStorage.removeItem("cognitousername");
+
+    var email = localStorage.getItem("email");
+
+    axios
+      .post(
+        "https://us-central1-serverlesbandb.cloudfunctions.net/userlogoutactivity",
+        {
+          email,
+        }
+      )
+      .then(() => {
+        console.log("Logged Out ");
+
+        const currentCognitoUser = userPool.getCurrentUser();
+        if (currentCognitoUser !== null) {
+          currentCognitoUser.signOut();
+        }
+
+        window.localStorage.removeItem("jwttoken");
+        window.localStorage.removeItem("email");
+        window.localStorage.removeItem("userid");
+        window.localStorage.removeItem("cognitousername");
+      });
 
     history.push("/login");
   };
@@ -32,8 +65,8 @@ const TopNav = () => {
         Tour Packages
       </Link>
       {auth !== null && (
-        <Link className="nav-link" to="/dashboard">
-          Dashboard
+        <Link className="nav-link" params={{ auth: auth }} to="/feedback">
+          Feedback
         </Link>
       )}
       {auth !== null && (
@@ -41,16 +74,20 @@ const TopNav = () => {
           Notifications
         </Link>
       )}
-      {auth !== null && (
-        <Link className="nav-link" params={{ auth: auth }} to="/visualizations">
-          Visualizations
-        </Link>
-      )}
+
+      <a
+        href="https://datastudio.google.com/embed/reporting/4c0f02d9-6bef-4f97-907c-206f5a8ccb8b/page/tEnnC"
+        target="_blank"
+      >
+        Visualization
+      </a>
+
       {auth !== null && (
         <a className="nav-link pointer" href="#" onClick={logout}>
           Logout
         </a>
       )}
+
       {auth === null && (
         <>
           <Link className="nav-link" to="/login">

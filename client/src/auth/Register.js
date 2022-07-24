@@ -31,6 +31,8 @@ const Register = ({ history }) => {
   const [foodanswererror, setFoodAnswererror] = useState();
   const [coloranswer, setColorAnswer] = useState("");
   const [coloranswererror, setColorAnswererror] = useState();
+  const [key, setKey] = useState("");
+  const [keyerror, setKeyerror] = useState();
 
   const validateName = (value) => {
     const regexforname = /^[A-Za-z ]+$/;
@@ -101,6 +103,17 @@ const Register = ({ history }) => {
     }
   };
 
+  const validateKey = (value) => {
+    const regexforkey = /^([1-9])$/;
+    if (regexforkey.test(value)) {
+      setKey(value);
+      setKeyerror(null);
+    } else {
+      setKey(value);
+      setKeyerror("Enter number between 1 to 9");
+    }
+  };
+
   const handleSubmit = (event) => {
     if (
       emailerror ||
@@ -159,6 +172,18 @@ const Register = ({ history }) => {
               console.log("user name is " + cognitoUser.getUsername());
             });
 
+          axios
+            .post(
+              "https://us-central1-serverlesbandb.cloudfunctions.net/ceaserkeyregister",
+              {
+                email,
+                key,
+              }
+            )
+            .then(() => {
+              console.log("key is " + key);
+            });
+          toast.success("Registration successful");
           history.push("/login");
 
           console.log("user name is " + cognitoUser.getUsername());
@@ -253,6 +278,18 @@ const Register = ({ history }) => {
                 />
               </div>
               {coloranswererror && <p>{coloranswererror}</p>}
+              <div className="form-group mb-3">
+                <label className="form-label"> Enter your cipher key:</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter key"
+                  value={key}
+                  onChange={(event) => validateKey(event.target.value)}
+                />
+              </div>
+              {keyerror && <p>{keyerror}</p>}
+
               <br />
               <button
                 disabled={!name || !email || !password}
