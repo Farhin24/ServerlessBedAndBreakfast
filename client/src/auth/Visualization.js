@@ -6,7 +6,7 @@ const Visualizations = (props) => {
       <button className="btn btn-primary" style={{ margin: "20px" }}>
         <a
           style={{ color: "white" }}
-          href="https://datastudio.google.com/embed/reporting/4c0f02d9-6bef-4f97-907c-206f5a8ccb8b/page/tEnnC"
+          href="https://datastudio.google.com/embed/reporting/b6222cd4-a6ce-4421-8e32-8d727074a2da/page/tEnnC"
           target="_blank"
         >
           Room Booking Visualizations
@@ -15,7 +15,7 @@ const Visualizations = (props) => {
       <button className="btn btn-primary" style={{ margin: "20px" }}>
         <a
           style={{ color: "white" }}
-          href="https://datastudio.google.com/embed/reporting/477fa5da-97a1-4a26-bb7c-e9d7308550fb/page/tEnnC"
+          href="https://datastudio.google.com/embed/u/0/reporting/999b22dc-e171-4a73-87ef-cd7258056fb8/page/tEnnC"
           target="_blank"
         >
           Meal Booking Visualizations
@@ -24,7 +24,7 @@ const Visualizations = (props) => {
       <button className="btn btn-primary" style={{ margin: "20px" }}>
         <a
           style={{ color: "white" }}
-          href="https://datastudio.google.com/embed/reporting/e1a95f2e-860c-4193-8005-e1413afd366f/page/tEnnC"
+          href="https://datastudio.google.com/embed/reporting/4bc424ac-44cb-4750-8cf1-2e54c587b86a/page/tEnnC"
           target="_blank"
         >
           Tour Booking Visualizations
