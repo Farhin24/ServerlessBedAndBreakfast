@@ -34,22 +34,22 @@ const Menu = () => {
     );
   };
 
-  const unauthorizedBot = () => {
-    return (
-      <LexChat
-        botName="AssistHotelNotRegistered"
-        IdentityPoolId="us-east-1:53305051-7ef5-4bd4-9208-118b97c3e4a4"
-        placeholder="Placeholder text"
-        backgroundColor="##D9D9D9"
-        height={430}
-        region="us-east-1"
-        headerText="Online Support (General queries)"
-        headerStyle={{ backgroundColor: "#000000", fontSize: "30px" }}
-        sessionAttributes={{ userid: localStorage.getItem("userid") }}
-        greeting={"Hello, how can I help?"}
-      />
-    );
-  };
+  // const unauthorizedBot = () => {
+  //   return (
+  //     <LexChat
+  //       botName="AssistHotelNotRegistered"
+  //       IdentityPoolId="us-east-1:53305051-7ef5-4bd4-9208-118b97c3e4a4"
+  //       placeholder="Placeholder text"
+  //       backgroundColor="##D9D9D9"
+  //       height={430}
+  //       region="us-east-1"
+  //       headerText="Online Support (General queries)"
+  //       headerStyle={{ backgroundColor: "#000000", fontSize: "30px" }}
+  //       sessionAttributes={{ userid: localStorage.getItem("userid") }}
+  //       greeting={"Hello, how can I help?"}
+  //     />
+  //   );
+  // };
 
   return (
     <>
@@ -64,7 +64,7 @@ const Menu = () => {
           <MenuCard key={m.id} m={m} />
         ))}
       </div>
-      {auth && auth ? loginBot() : unauthorizedBot()}
+      {auth && auth ? loginBot() : loginBot()}
     </>
   );
 };
