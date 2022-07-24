@@ -1,1 +1,1172 @@
-[{"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\index.js":"1","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reportWebVitals.js":"2","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\App.js":"3","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reducers\\index.js":"4","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\PrivateRoute.js":"5","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\TopNav.js":"6","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Tour.js":"7","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Home.js":"8","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Menu.js":"9","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Login.js":"10","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Securityquestion.js":"11","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\user\\feedback.js":"12","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\user\\Notifications.js":"13","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\hotels\\ViewHotel.js":"14","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Register.js":"15","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\CeaserCipher.js":"16","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\Analytics\\Graph.js":"17","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reducers\\auth.js":"18","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\CipherBackend.js":"19","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\actions\\auth.js":"20","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\TourCard.js":"21","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\actions\\hotel.js":"22","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\MenuCard.js":"23","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\SmallCard.js":"24","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\admin\\userreport.js":"25"},{"size":1029,"mtime":1658597248112,"results":"26","hashOfConfig":"27"},{"size":375,"mtime":1658597248113,"results":"28","hashOfConfig":"27"},{"size":2056,"mtime":1658636926801,"results":"29","hashOfConfig":"27"},{"size":180,"mtime":1658597248113,"results":"30","hashOfConfig":"27"},{"size":372,"mtime":1658597248110,"results":"31","hashOfConfig":"27"},{"size":2759,"mtime":1658636926795,"results":"32","hashOfConfig":"27"},{"size":2076,"mtime":1658636926780,"results":"33","hashOfConfig":"27"},{"size":2091,"mtime":1658636926778,"results":"34","hashOfConfig":"27"},{"size":2069,"mtime":1658636926779,"results":"35","hashOfConfig":"27"},{"size":4063,"mtime":1658636926775,"results":"36","hashOfConfig":"27"},{"size":2819,"mtime":1658597248108,"results":"37","hashOfConfig":"27"},{"size":1584,"mtime":1658636926784,"results":"38","hashOfConfig":"27"},{"size":962,"mtime":1658597248114,"results":"39","hashOfConfig":"27"},{"size":3553,"mtime":1658636926783,"results":"40","hashOfConfig":"27"},{"size":9551,"mtime":1658636926776,"results":"41","hashOfConfig":"27"},{"size":2183,"mtime":1658613130816,"results":"42","hashOfConfig":"27"},{"size":773,"mtime":1658597248105,"results":"43","hashOfConfig":"27"},{"size":424,"mtime":1658597248113,"results":"44","hashOfConfig":"27"},{"size":461,"mtime":1658613130816,"results":"45","hashOfConfig":"27"},{"size":556,"mtime":1658597248106,"results":"46","hashOfConfig":"27"},{"size":3042,"mtime":1658636926782,"results":"47","hashOfConfig":"27"},{"size":1646,"mtime":1658636926774,"results":"48","hashOfConfig":"27"},{"size":3002,"mtime":1658636926781,"results":"49","hashOfConfig":"27"},{"size":2073,"mtime":1658597248111,"results":"50","hashOfConfig":"27"},{"size":2229,"mtime":1658635788181,"results":"51","hashOfConfig":"27"},{"filePath":"52","messages":"53","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},"1d1411r",{"filePath":"55","messages":"56","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"57","messages":"58","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"59","messages":"60","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"61","messages":"62","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"63","messages":"64","errorCount":0,"fatalErrorCount":0,"warningCount":5,"fixableErrorCount":0,"fixableWarningCount":1,"source":null},{"filePath":"65","messages":"66","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"67","messages":"68","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"69","messages":"70","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"71","messages":"72","errorCount":0,"fatalErrorCount":0,"warningCount":2,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"73","messages":"74","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"75","usedDeprecatedRules":"54"},{"filePath":"76","messages":"77","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"78","messages":"79","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"80","usedDeprecatedRules":"54"},{"filePath":"81","messages":"82","errorCount":0,"fatalErrorCount":0,"warningCount":5,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"83","messages":"84","errorCount":0,"fatalErrorCount":0,"warningCount":3,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"85","messages":"86","errorCount":0,"fatalErrorCount":0,"warningCount":4,"fixableErrorCount":0,"fixableWarningCount":0,"source":"87","usedDeprecatedRules":"54"},{"filePath":"88","messages":"89","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":1,"source":"90","usedDeprecatedRules":"54"},{"filePath":"91","messages":"92","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"93","messages":"94","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":"54"},{"filePath":"95","messages":"96","errorCount":0,"fatalErrorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":"97","usedDeprecatedRules":"54"},{"filePath":"98","messages":"99","errorCount":0,"fatalErrorCount":0,"warningCount":7,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"100","messages":"101","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"102","messages":"103","errorCount":0,"fatalErrorCount":0,"warningCount":7,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"104","messages":"105","errorCount":0,"fatalErrorCount":0,"warningCount":6,"fixableErrorCount":0,"fixableWarningCount":0,"source":"106","usedDeprecatedRules":"54"},{"filePath":"107","messages":"108","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\index.js",[],["109","110"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reportWebVitals.js",[],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\App.js",[],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reducers\\index.js",[],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\PrivateRoute.js",[],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\TopNav.js",["111","112","113","114","115"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Tour.js",["116"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Home.js",["117"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Menu.js",["118"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Login.js",["119","120"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Securityquestion.js",["121"],"import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\n\r\nconst Securityquestion = ({ history }) => {\r\n  const [birthplaceanswer, setBirthPlaceAnswer] = useState(\"\");\r\n  const [foodanswer, setFoodAnswer] = useState(\"\");\r\n  const [coloranswer, setColorAnswer] = useState(\"\");\r\n  const [error, setError] = useState(\"\");\r\n\r\n  const handleSubmit = (event) => {\r\n    event.preventDefault();\r\n    var userid = localStorage.getItem(\"userid\");\r\n    var email = localStorage.getItem(\"email\");\r\n    var error = \"\";\r\n\r\n    axios\r\n      .post(\r\n        \"https://k6isuvi4x0.execute-api.us-east-1.amazonaws.com/test/checksecurityanswer\",\r\n        {\r\n          userid,\r\n          email,\r\n          birthplaceanswer,\r\n          foodanswer,\r\n          coloranswer,\r\n        }\r\n      )\r\n      .then(\r\n        (response) => {\r\n          error = response?.data?.message;\r\n          console.log(error);\r\n          setError(error);\r\n          if (!response?.data?.message) {\r\n            error = \"\";\r\n            setError(\"\");\r\n            history.push(\"/cipher\");\r\n          }\r\n        },\r\n        (error) => {\r\n          console.log(error);\r\n        }\r\n      );\r\n  };\r\n\r\n  return (\r\n    <div className=\"container\">\r\n      <div className=\"row\">\r\n        <div className=\"col-md-6 mt-5 mx-auto\">\r\n          <center>\r\n            <h1>Security Questions</h1>\r\n            <form onSubmit={handleSubmit}>\r\n              <label>\r\n                What is your birth place:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={birthplaceanswer}\r\n                  name=\"birthplaceanswer\"\r\n                  onChange={(event) => setBirthPlaceAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              <br />\r\n\r\n              <label>\r\n                What is your favorite food:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={foodanswer}\r\n                  name=\"foodanswer\"\r\n                  onChange={(event) => setFoodAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              <br />\r\n\r\n              <label>\r\n                What is your favorite color:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={coloranswer}\r\n                  name=\"coloranswer\"\r\n                  onChange={(event) => setColorAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              {error && <p>{error}</p>}\r\n              <br />\r\n\r\n              <input type=\"submit\" value=\"Submit\" />\r\n            </form>\r\n          </center>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Securityquestion;\r\n","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\user\\feedback.js",["122"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\user\\Notifications.js",["123"],"import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\n\r\nconst Notifications = (props) => {\r\n  const [notifications, setNotifications] = useState([]);\r\n  const userid = localStorage.getItem(\"userid\");\r\n\r\n  useEffect(() => {\r\n    console.log(\"userid\", userid);\r\n    axios\r\n      .post(\r\n        `https://us-central1-serverlesbandb.cloudfunctions.net/getNotificationsById`,\r\n        { userid: userid }\r\n      )\r\n      .then((response) => {\r\n        console.log(response.data);\r\n        setNotifications(response.data.notification);\r\n      });\r\n  }, []);\r\n\r\n  return (\r\n    <div>\r\n      <h2>Notifications</h2>\r\n      {notifications.map((notification) => {\r\n        return (\r\n          <div className=\"card mb-3\">\r\n            <div className=\"row no-gutters\">\r\n              <div className=\"col-md-15\">{notification}</div>\r\n            </div>\r\n          </div>\r\n        );\r\n      })}\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Notifications;\r\n","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\hotels\\ViewHotel.js",["124","125","126","127","128"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Register.js",["129","130","131"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\CeaserCipher.js",["132","133","134","135"],"import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\nimport { generateEncryptedCipher, decryptCipher } from \"./CipherBackend\";\r\n\r\nconst cipherText = generateEncryptedCipher(); \r\n\r\nconst CeaserCipher = ({ history }) => {\r\n  const [decryptedAnswer, setDecryptedanswer] = useState(\"\");\r\n  const [error, setError] = useState(\"\");\r\n\r\n  const handleSubmit = (event) => {\r\n    event.preventDefault();\r\n    var userid = localStorage.getItem(\"userid\");\r\n    var email = localStorage.getItem(\"email\");\r\n    var ciphertext = cipherText\r\n    var error = \"\";\r\n\r\n    axios\r\n      .post(\r\n        \"https://us-central1-serverlesbandb.cloudfunctions.net/ceaser\",\r\n        {\r\n          email,\r\n          ciphertext,\r\n          decryptedAnswer\r\n        }\r\n      )\r\n      .then(\r\n        (response) => {\r\n            console.log(response)\r\n            if (response?.data === \"success\"){\r\n                setError(\"\");\r\n                history.push(\"/\");\r\n                console.log(\"Login success!\");\r\n            } else {\r\n                setError(\"you have entered incorrect decrption!\");\r\n                console.log(\"Login failed!\");\r\n            }\r\n        },\r\n        (error) => {\r\n          console.log(error);\r\n        }\r\n      );\r\n  };\r\n\r\n  return (\r\n    <div className=\"container\">\r\n      <div className=\"row\">\r\n        <div className=\"col-md-6 mt-5 mx-auto\">\r\n          <center>\r\n            <h1>Ceaser Cipher</h1>\r\n\r\n            <p>Decrypt Ceaser Cipher: {cipherText}</p>\r\n\r\n            <form onSubmit={handleSubmit}>\r\n              <label>\r\n                Please enter decrypted answer with your key:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={decryptedAnswer}\r\n                  name=\"decryptedAnswer\"\r\n                  onChange={(event) => setDecryptedanswer(event.target.value)}\r\n                />\r\n              </label>\r\n              {error && <p>{error}</p>}\r\n              <br />\r\n\r\n              <input type=\"submit\" value=\"Submit\" />\r\n            </form>\r\n          </center>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default CeaserCipher;\r\n","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\Analytics\\Graph.js",["136"],"import React from \"react\";\r\n\r\nconst Graph = () => {\r\n  // const [graph, setGraph] = useState(\"\");\r\n  // useEffect(() => {\r\n  //   callApi();\r\n  // }, []);\r\n\r\n  // const callApi = async () => {\r\n  //   const resp = await axios.get(\r\n  //     `https://datastudio.google.com/reporting/3c4b52d1-b179-438f-9ee4-fc95a0bc7b0d`\r\n  //   );\r\n  //   console.log(\"resp\", resp);\r\n  //   setGraph(resp);\r\n  // };\r\n\r\n  // return <iframe src=\"https://www.youtube.com/embed/cWDJoK8zw58\" />;\r\n  return (\r\n    <>\r\n      <div>\r\n        <a\r\n          className=\"def\"\r\n          target=\"_blank\"\r\n          href=\"https://datastudio.google.com/reporting/3c4b52d1-b179-438f-9ee4-fc95a0bc7b0d\"\r\n        >\r\n          Analytics\r\n        </a>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Graph;\r\n","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reducers\\auth.js",[],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\CipherBackend.js",[],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\actions\\auth.js",["137"],"import axios from \"axios\";\r\n\r\n// export const register = async (user) =>\r\n//   await axios.post(`${process.env.REACT_APP_API}/register`, user);\r\n\r\n// export const login = async (user) =>\r\n//   await axios.post(`${process.env.REACT_APP_API}/login`, user);\r\n\r\n// update user in local storage\r\nexport const updateUserInLocalStorage = (user, next) => {\r\n  if (window.localStorage.getItem(\"auth\")) {\r\n    let auth = JSON.parse(localStorage.getItem(\"auth\"));\r\n    auth.user = user;\r\n    localStorage.setItem(\"auth\", JSON.stringify(auth));\r\n    next();\r\n  }\r\n};\r\n","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\TourCard.js",["138","139","140","141","142","143","144"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\actions\\hotel.js",[],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\MenuCard.js",["145","146","147","148","149","150","151"],"D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\SmallCard.js",["152","153","154","155","156","157"],"import { diffDays } from \"../../actions/hotel\";\r\nimport { useHistory, Link } from \"react-router-dom\";\r\nimport { EditOutlined, DeleteOutlined } from \"@ant-design/icons\";\r\n\r\nconst SmallCard = ({\r\n  h,\r\n  handleHotelDelete = (f) => f,\r\n  owner = false,\r\n  showViewMoreButton = true,\r\n}) => {\r\n  const history = useHistory();\r\n  return (\r\n    <>\r\n      <div className=\"card mb-3\">\r\n        <div className=\"row no-gutters\">\r\n          <div className=\"col-md-4\">\r\n            {h.image && h.image ? (\r\n              <img\r\n                src={h.image}\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid rounded mx-auto d-block\"\r\n              />\r\n            ) : (\r\n              <img\r\n                src=\"https://via.placeholder.com/900x500.png?text=MERN+Booking\"\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid\"\r\n              />\r\n            )}\r\n          </div>\r\n          <div className=\"col-md-8\">\r\n            <div className=\"card-body\">\r\n              <h3 className=\"card-title\">{h.title} </h3>\r\n              <p\r\n                className=\"alert alert-info\"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Room type: {h.category}\r\n              </p>\r\n              <p className=\"card-text\">{`${h.description}`}</p>\r\n\r\n              <p\r\n                className=\"alert alert-warning\"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Price: ${h.dailyRate}\r\n              </p>\r\n\r\n              <div className=\"d-flex justify-content-between h4\">\r\n                {showViewMoreButton && (\r\n                  <button\r\n                    onClick={() => history.push(`/hotel/${h.id}`)}\r\n                    className=\"btn btn-primary\"\r\n                  >\r\n                    Show more\r\n                  </button>\r\n                )}\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default SmallCard;\r\n","D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\admin\\userreport.js",[],{"ruleId":"158","replacedBy":"159"},{"ruleId":"160","replacedBy":"161"},{"ruleId":"162","severity":1,"message":"163","line":8,"column":3,"nodeType":"164","messageId":"165","endLine":8,"endColumn":23},{"ruleId":"162","severity":1,"message":"166","line":9,"column":3,"nodeType":"164","messageId":"165","endLine":9,"endColumn":14},{"ruleId":"162","severity":1,"message":"167","line":10,"column":3,"nodeType":"164","messageId":"165","endLine":10,"endColumn":24},{"ruleId":"168","severity":1,"message":"169","line":78,"column":7,"nodeType":"170","messageId":"171","endLine":81,"endColumn":8,"fix":"172"},{"ruleId":"173","severity":1,"message":"174","line":89,"column":9,"nodeType":"170","endLine":89,"endColumn":67},{"ruleId":"162","severity":1,"message":"175","line":3,"column":23,"nodeType":"164","messageId":"165","endLine":3,"endColumn":34},{"ruleId":"162","severity":1,"message":"175","line":4,"column":23,"nodeType":"164","messageId":"165","endLine":4,"endColumn":34},{"ruleId":"162","severity":1,"message":"175","line":4,"column":23,"nodeType":"164","messageId":"165","endLine":4,"endColumn":34},{"ruleId":"162","severity":1,"message":"176","line":3,"column":10,"nodeType":"164","messageId":"165","endLine":3,"endColumn":15},{"ruleId":"162","severity":1,"message":"163","line":8,"column":3,"nodeType":"164","messageId":"165","endLine":8,"endColumn":23},{"ruleId":"162","severity":1,"message":"177","line":2,"column":17,"nodeType":"164","messageId":"165","endLine":2,"endColumn":26},{"ruleId":"162","severity":1,"message":"178","line":4,"column":10,"nodeType":"164","messageId":"165","endLine":4,"endColumn":24},{"ruleId":"179","severity":1,"message":"180","line":19,"column":6,"nodeType":"181","endLine":19,"endColumn":8,"suggestions":"182"},{"ruleId":"162","severity":1,"message":"183","line":2,"column":10,"nodeType":"164","messageId":"165","endLine":2,"endColumn":18},{"ruleId":"162","severity":1,"message":"184","line":3,"column":31,"nodeType":"164","messageId":"165","endLine":3,"endColumn":46},{"ruleId":"162","severity":1,"message":"185","line":13,"column":10,"nodeType":"164","messageId":"165","endLine":13,"endColumn":23},{"ruleId":"162","severity":1,"message":"186","line":13,"column":25,"nodeType":"164","messageId":"165","endLine":13,"endColumn":41},{"ruleId":"179","severity":1,"message":"187","line":19,"column":6,"nodeType":"181","endLine":19,"endColumn":8,"suggestions":"188"},{"ruleId":"162","severity":1,"message":"189","line":5,"column":10,"nodeType":"164","messageId":"165","endLine":5,"endColumn":18},{"ruleId":"162","severity":1,"message":"166","line":9,"column":3,"nodeType":"164","messageId":"165","endLine":9,"endColumn":14},{"ruleId":"162","severity":1,"message":"167","line":10,"column":3,"nodeType":"164","messageId":"165","endLine":10,"endColumn":24},{"ruleId":"162","severity":1,"message":"177","line":2,"column":17,"nodeType":"164","messageId":"165","endLine":2,"endColumn":26},{"ruleId":"162","severity":1,"message":"190","line":3,"column":35,"nodeType":"164","messageId":"165","endLine":3,"endColumn":48},{"ruleId":"162","severity":1,"message":"191","line":13,"column":9,"nodeType":"164","messageId":"165","endLine":13,"endColumn":15},{"ruleId":"162","severity":1,"message":"192","line":16,"column":9,"nodeType":"164","messageId":"165","endLine":16,"endColumn":14},{"ruleId":"168","severity":1,"message":"169","line":21,"column":9,"nodeType":"170","messageId":"171","endLine":25,"endColumn":10,"fix":"193"},{"ruleId":"162","severity":1,"message":"194","line":1,"column":8,"nodeType":"164","messageId":"165","endLine":1,"endColumn":13},{"ruleId":"162","severity":1,"message":"195","line":1,"column":10,"nodeType":"164","messageId":"165","endLine":1,"endColumn":18},{"ruleId":"162","severity":1,"message":"196","line":2,"column":22,"nodeType":"164","messageId":"165","endLine":2,"endColumn":26},{"ruleId":"162","severity":1,"message":"197","line":3,"column":10,"nodeType":"164","messageId":"165","endLine":3,"endColumn":22},{"ruleId":"162","severity":1,"message":"198","line":3,"column":24,"nodeType":"164","messageId":"165","endLine":3,"endColumn":38},{"ruleId":"162","severity":1,"message":"177","line":5,"column":20,"nodeType":"164","messageId":"165","endLine":5,"endColumn":29},{"ruleId":"199","severity":1,"message":"200","line":50,"column":15,"nodeType":"170","endLine":55,"endColumn":17},{"ruleId":"199","severity":1,"message":"200","line":57,"column":15,"nodeType":"170","endLine":61,"endColumn":17},{"ruleId":"162","severity":1,"message":"195","line":1,"column":10,"nodeType":"164","messageId":"165","endLine":1,"endColumn":18},{"ruleId":"162","severity":1,"message":"196","line":2,"column":22,"nodeType":"164","messageId":"165","endLine":2,"endColumn":26},{"ruleId":"162","severity":1,"message":"197","line":3,"column":10,"nodeType":"164","messageId":"165","endLine":3,"endColumn":22},{"ruleId":"162","severity":1,"message":"198","line":3,"column":24,"nodeType":"164","messageId":"165","endLine":3,"endColumn":38},{"ruleId":"162","severity":1,"message":"177","line":4,"column":20,"nodeType":"164","messageId":"165","endLine":4,"endColumn":29},{"ruleId":"199","severity":1,"message":"200","line":52,"column":15,"nodeType":"170","endLine":56,"endColumn":17},{"ruleId":"199","severity":1,"message":"200","line":58,"column":15,"nodeType":"170","endLine":62,"endColumn":17},{"ruleId":"162","severity":1,"message":"195","line":1,"column":10,"nodeType":"164","messageId":"165","endLine":1,"endColumn":18},{"ruleId":"162","severity":1,"message":"196","line":2,"column":22,"nodeType":"164","messageId":"165","endLine":2,"endColumn":26},{"ruleId":"162","severity":1,"message":"197","line":3,"column":10,"nodeType":"164","messageId":"165","endLine":3,"endColumn":22},{"ruleId":"162","severity":1,"message":"198","line":3,"column":24,"nodeType":"164","messageId":"165","endLine":3,"endColumn":38},{"ruleId":"199","severity":1,"message":"200","line":18,"column":15,"nodeType":"170","endLine":22,"endColumn":17},{"ruleId":"199","severity":1,"message":"200","line":24,"column":15,"nodeType":"170","endLine":28,"endColumn":17},"no-native-reassign",["201"],"no-negated-in-lhs",["202"],"no-unused-vars","'CognitoUserAttribute' is defined but never used.","Identifier","unusedVar","'CognitoUser' is defined but never used.","'AuthenticationDetails' is defined but never used.","react/jsx-no-target-blank","Using target=\"_blank\" without rel=\"noreferrer\" (which implies rel=\"noopener\") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations","JSXOpeningElement","noTargetBlankWithoutNoreferrer",{"range":"203","text":"204"},"jsx-a11y/anchor-is-valid","The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md","'useDispatch' is defined but never used.","'login' is defined but never used.","'useEffect' is defined but never used.","'ToastContainer' is defined but never used.","react-hooks/exhaustive-deps","React Hook useEffect has a missing dependency: 'userid'. Either include it or remove the dependency array.","ArrayExpression",["205"],"'useStore' is defined but never used.","'isAlreadyBooked' is defined but never used.","'alreadyBooked' is assigned a value but never used.","'setAlreadyBooked' is assigned a value but never used.","React Hook useEffect has a missing dependency: 'loadHotel'. Either include it or remove the dependency array.",["206"],"'register' is defined but never used.","'decryptCipher' is defined but never used.","'userid' is assigned a value but never used.","'error' is assigned a value but never used.",{"range":"207","text":"204"},"'axios' is defined but never used.","'diffDays' is defined but never used.","'Link' is defined but never used.","'EditOutlined' is defined but never used.","'DeleteOutlined' is defined but never used.","jsx-a11y/img-redundant-alt","Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.","no-global-assign","no-unsafe-negation",[2184,2184]," rel=\"noreferrer\"",{"desc":"208","fix":"209"},{"desc":"210","fix":"211"},[667,667],"Update the dependencies array to be: [userid]",{"range":"212","text":"213"},"Update the dependencies array to be: [loadHotel]",{"range":"214","text":"215"},[573,575],"[userid]",[685,687],"[loadHotel]"]
+[
+  {
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\index.js": "1",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reportWebVitals.js": "2",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\App.js": "3",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reducers\\index.js": "4",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\PrivateRoute.js": "5",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\TopNav.js": "6",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Tour.js": "7",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Home.js": "8",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Menu.js": "9",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Login.js": "10",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Securityquestion.js": "11",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\user\\feedback.js": "12",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\user\\Notifications.js": "13",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\hotels\\ViewHotel.js": "14",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Register.js": "15",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\CeaserCipher.js": "16",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\Analytics\\Graph.js": "17",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reducers\\auth.js": "18",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\CipherBackend.js": "19",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\actions\\auth.js": "20",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\TourCard.js": "21",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\actions\\hotel.js": "22",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\MenuCard.js": "23",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\SmallCard.js": "24",
+    "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\admin\\userreport.js": "25"
+  },
+  {
+    "size": 1029,
+    "mtime": 1658597248112,
+    "results": "26",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 375,
+    "mtime": 1658597248113,
+    "results": "28",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 2056,
+    "mtime": 1658636926801,
+    "results": "29",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 180,
+    "mtime": 1658597248113,
+    "results": "30",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 372,
+    "mtime": 1658597248110,
+    "results": "31",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 2759,
+    "mtime": 1658636926795,
+    "results": "32",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 2076,
+    "mtime": 1658636926780,
+    "results": "33",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 2091,
+    "mtime": 1658636926778,
+    "results": "34",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 2069,
+    "mtime": 1658636926779,
+    "results": "35",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 4063,
+    "mtime": 1658636926775,
+    "results": "36",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 2819,
+    "mtime": 1658597248108,
+    "results": "37",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 1584,
+    "mtime": 1658636926784,
+    "results": "38",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 962,
+    "mtime": 1658597248114,
+    "results": "39",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 3553,
+    "mtime": 1658636926783,
+    "results": "40",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 9551,
+    "mtime": 1658636926776,
+    "results": "41",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 2183,
+    "mtime": 1658613130816,
+    "results": "42",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 773,
+    "mtime": 1658597248105,
+    "results": "43",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 424,
+    "mtime": 1658597248113,
+    "results": "44",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 461,
+    "mtime": 1658613130816,
+    "results": "45",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 556,
+    "mtime": 1658597248106,
+    "results": "46",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 3042,
+    "mtime": 1658636926782,
+    "results": "47",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 1646,
+    "mtime": 1658636926774,
+    "results": "48",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 3002,
+    "mtime": 1658636926781,
+    "results": "49",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 2073,
+    "mtime": 1658597248111,
+    "results": "50",
+    "hashOfConfig": "27"
+  },
+  {
+    "size": 2229,
+    "mtime": 1658635788181,
+    "results": "51",
+    "hashOfConfig": "27"
+  },
+  {
+    "filePath": "52",
+    "messages": "53",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "54"
+  },
+  "1d1411r",
+  {
+    "filePath": "55",
+    "messages": "56",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "57",
+    "messages": "58",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "59",
+    "messages": "60",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "61",
+    "messages": "62",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "63",
+    "messages": "64",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 5,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 1,
+    "source": null
+  },
+  {
+    "filePath": "65",
+    "messages": "66",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "67",
+    "messages": "68",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "69",
+    "messages": "70",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "71",
+    "messages": "72",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 2,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "73",
+    "messages": "74",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "75",
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "76",
+    "messages": "77",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "78",
+    "messages": "79",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "80",
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "81",
+    "messages": "82",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 5,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "83",
+    "messages": "84",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 3,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "85",
+    "messages": "86",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 4,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "87",
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "88",
+    "messages": "89",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 1,
+    "source": "90",
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "91",
+    "messages": "92",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "93",
+    "messages": "94",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "95",
+    "messages": "96",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "97",
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "98",
+    "messages": "99",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 7,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "100",
+    "messages": "101",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "102",
+    "messages": "103",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 7,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "104",
+    "messages": "105",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 6,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "106",
+    "usedDeprecatedRules": "54"
+  },
+  {
+    "filePath": "107",
+    "messages": "108",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\index.js",
+  [],
+  [
+    "109",
+    "110"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reportWebVitals.js",
+  [],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\App.js",
+  [],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reducers\\index.js",
+  [],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\PrivateRoute.js",
+  [],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\TopNav.js",
+  [
+    "111",
+    "112",
+    "113",
+    "114",
+    "115"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Tour.js",
+  [
+    "116"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Home.js",
+  [
+    "117"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\booking\\Menu.js",
+  [
+    "118"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Login.js",
+  [
+    "119",
+    "120"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Securityquestion.js",
+  [
+    "121"
+  ],
+  "import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\n\r\nconst Securityquestion = ({ history }) => {\r\n  const [birthplaceanswer, setBirthPlaceAnswer] = useState(\"\");\r\n  const [foodanswer, setFoodAnswer] = useState(\"\");\r\n  const [coloranswer, setColorAnswer] = useState(\"\");\r\n  const [error, setError] = useState(\"\");\r\n\r\n  const handleSubmit = (event) => {\r\n    event.preventDefault();\r\n    var userid = localStorage.getItem(\"userid\");\r\n    var email = localStorage.getItem(\"email\");\r\n    var error = \"\";\r\n\r\n    axios\r\n      .post(\r\n        \"https://k6isuvi4x0.execute-api.us-east-1.amazonaws.com/test/checksecurityanswer\",\r\n        {\r\n          userid,\r\n          email,\r\n          birthplaceanswer,\r\n          foodanswer,\r\n          coloranswer,\r\n        }\r\n      )\r\n      .then(\r\n        (response) => {\r\n          error = response?.data?.message;\r\n          console.log(error);\r\n          setError(error);\r\n          if (!response?.data?.message) {\r\n            error = \"\";\r\n            setError(\"\");\r\n            history.push(\"/cipher\");\r\n          }\r\n        },\r\n        (error) => {\r\n          console.log(error);\r\n        }\r\n      );\r\n  };\r\n\r\n  return (\r\n    <div className=\"container\">\r\n      <div className=\"row\">\r\n        <div className=\"col-md-6 mt-5 mx-auto\">\r\n          <center>\r\n            <h1>Security Questions</h1>\r\n            <form onSubmit={handleSubmit}>\r\n              <label>\r\n                What is your birth place:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={birthplaceanswer}\r\n                  name=\"birthplaceanswer\"\r\n                  onChange={(event) => setBirthPlaceAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              <br />\r\n\r\n              <label>\r\n                What is your favorite food:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={foodanswer}\r\n                  name=\"foodanswer\"\r\n                  onChange={(event) => setFoodAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              <br />\r\n\r\n              <label>\r\n                What is your favorite color:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={coloranswer}\r\n                  name=\"coloranswer\"\r\n                  onChange={(event) => setColorAnswer(event.target.value)}\r\n                />\r\n              </label>\r\n              {error && <p>{error}</p>}\r\n              <br />\r\n\r\n              <input type=\"submit\" value=\"Submit\" />\r\n            </form>\r\n          </center>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Securityquestion;\r\n",
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\user\\feedback.js",
+  [
+    "122"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\user\\Notifications.js",
+  [
+    "123"
+  ],
+  "import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\n\r\nconst Notifications = (props) => {\r\n  const [notifications, setNotifications] = useState([]);\r\n  const userid = localStorage.getItem(\"userid\");\r\n\r\n  useEffect(() => {\r\n    console.log(\"userid\", userid);\r\n    axios\r\n      .post(\r\n        `https://us-central1-serverlesbandb.cloudfunctions.net/getNotificationsById`,\r\n        { userid: userid }\r\n      )\r\n      .then((response) => {\r\n        console.log(response.data);\r\n        setNotifications(response.data.notification);\r\n      });\r\n  }, []);\r\n\r\n  return (\r\n    <div>\r\n      <h2>Notifications</h2>\r\n      {notifications.map((notification) => {\r\n        return (\r\n          <div className=\"card mb-3\">\r\n            <div className=\"row no-gutters\">\r\n              <div className=\"col-md-15\">{notification}</div>\r\n            </div>\r\n          </div>\r\n        );\r\n      })}\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Notifications;\r\n",
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\hotels\\ViewHotel.js",
+  [
+    "124",
+    "125",
+    "126",
+    "127",
+    "128"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\Register.js",
+  [
+    "129",
+    "130",
+    "131"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\CeaserCipher.js",
+  [
+    "132",
+    "133",
+    "134",
+    "135"
+  ],
+  "import axios from \"axios\";\r\nimport React, { useEffect, useState } from \"react\";\r\nimport { generateEncryptedCipher, decryptCipher } from \"./CipherBackend\";\r\n\r\nconst cipherText = generateEncryptedCipher(); \r\n\r\nconst CeaserCipher = ({ history }) => {\r\n  const [decryptedAnswer, setDecryptedanswer] = useState(\"\");\r\n  const [error, setError] = useState(\"\");\r\n\r\n  const handleSubmit = (event) => {\r\n    event.preventDefault();\r\n    var userid = localStorage.getItem(\"userid\");\r\n    var email = localStorage.getItem(\"email\");\r\n    var ciphertext = cipherText\r\n    var error = \"\";\r\n\r\n    axios\r\n      .post(\r\n        \"https://us-central1-serverlesbandb.cloudfunctions.net/ceaser\",\r\n        {\r\n          email,\r\n          ciphertext,\r\n          decryptedAnswer\r\n        }\r\n      )\r\n      .then(\r\n        (response) => {\r\n            console.log(response)\r\n            if (response?.data === \"success\"){\r\n                setError(\"\");\r\n                history.push(\"/\");\r\n                console.log(\"Login success!\");\r\n            } else {\r\n                setError(\"you have entered incorrect decrption!\");\r\n                console.log(\"Login failed!\");\r\n            }\r\n        },\r\n        (error) => {\r\n          console.log(error);\r\n        }\r\n      );\r\n  };\r\n\r\n  return (\r\n    <div className=\"container\">\r\n      <div className=\"row\">\r\n        <div className=\"col-md-6 mt-5 mx-auto\">\r\n          <center>\r\n            <h1>Ceaser Cipher</h1>\r\n\r\n            <p>Decrypt Ceaser Cipher: {cipherText}</p>\r\n\r\n            <form onSubmit={handleSubmit}>\r\n              <label>\r\n                Please enter decrypted answer with your key:\r\n                <input\r\n                  type=\"text\"\r\n                  className=\"form-control mb-3\"\r\n                  value={decryptedAnswer}\r\n                  name=\"decryptedAnswer\"\r\n                  onChange={(event) => setDecryptedanswer(event.target.value)}\r\n                />\r\n              </label>\r\n              {error && <p>{error}</p>}\r\n              <br />\r\n\r\n              <input type=\"submit\" value=\"Submit\" />\r\n            </form>\r\n          </center>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default CeaserCipher;\r\n",
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\Analytics\\Graph.js",
+  [
+    "136"
+  ],
+  "import React from \"react\";\r\n\r\nconst Graph = () => {\r\n  // const [graph, setGraph] = useState(\"\");\r\n  // useEffect(() => {\r\n  //   callApi();\r\n  // }, []);\r\n\r\n  // const callApi = async () => {\r\n  //   const resp = await axios.get(\r\n  //     `https://datastudio.google.com/reporting/3c4b52d1-b179-438f-9ee4-fc95a0bc7b0d`\r\n  //   );\r\n  //   console.log(\"resp\", resp);\r\n  //   setGraph(resp);\r\n  // };\r\n\r\n  // return <iframe src=\"https://www.youtube.com/embed/cWDJoK8zw58\" />;\r\n  return (\r\n    <>\r\n      <div>\r\n        <a\r\n          className=\"def\"\r\n          target=\"_blank\"\r\n          href=\"https://datastudio.google.com/reporting/3c4b52d1-b179-438f-9ee4-fc95a0bc7b0d\"\r\n        >\r\n          Analytics\r\n        </a>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Graph;\r\n",
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\reducers\\auth.js",
+  [],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\auth\\CipherBackend.js",
+  [],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\actions\\auth.js",
+  [
+    "137"
+  ],
+  "import axios from \"axios\";\r\n\r\n// export const register = async (user) =>\r\n//   await axios.post(`${process.env.REACT_APP_API}/register`, user);\r\n\r\n// export const login = async (user) =>\r\n//   await axios.post(`${process.env.REACT_APP_API}/login`, user);\r\n\r\n// update user in local storage\r\nexport const updateUserInLocalStorage = (user, next) => {\r\n  if (window.localStorage.getItem(\"auth\")) {\r\n    let auth = JSON.parse(localStorage.getItem(\"auth\"));\r\n    auth.user = user;\r\n    localStorage.setItem(\"auth\", JSON.stringify(auth));\r\n    next();\r\n  }\r\n};\r\n",
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\TourCard.js",
+  [
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\actions\\hotel.js",
+  [],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\MenuCard.js",
+  [
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151"
+  ],
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\components\\cards\\SmallCard.js",
+  [
+    "152",
+    "153",
+    "154",
+    "155",
+    "156",
+    "157"
+  ],
+  "import { diffDays } from \"../../actions/hotel\";\r\nimport { useHistory, Link } from \"react-router-dom\";\r\nimport { EditOutlined, DeleteOutlined } from \"@ant-design/icons\";\r\n\r\nconst SmallCard = ({\r\n  h,\r\n  handleHotelDelete = (f) => f,\r\n  owner = false,\r\n  showViewMoreButton = true,\r\n}) => {\r\n  const history = useHistory();\r\n  return (\r\n    <>\r\n      <div className=\"card mb-3\">\r\n        <div className=\"row no-gutters\">\r\n          <div className=\"col-md-4\">\r\n            {h.image && h.image ? (\r\n              <img\r\n                src={h.image}\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid rounded mx-auto d-block\"\r\n              />\r\n            ) : (\r\n              <img\r\n                src=\"https://via.placeholder.com/900x500.png?text=MERN+Booking\"\r\n                alt=\"default hotel image\"\r\n                className=\"card-image img img-fluid\"\r\n              />\r\n            )}\r\n          </div>\r\n          <div className=\"col-md-8\">\r\n            <div className=\"card-body\">\r\n              <h3 className=\"card-title\">{h.title} </h3>\r\n              <p\r\n                className=\"alert alert-info\"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Room type: {h.category}\r\n              </p>\r\n              <p className=\"card-text\">{`${h.description}`}</p>\r\n\r\n              <p\r\n                className=\"alert alert-warning\"\r\n                style={{ maxWidth: \"200px\", textAlign: \"center\" }}\r\n              >\r\n                Price: ${h.dailyRate}\r\n              </p>\r\n\r\n              <div className=\"d-flex justify-content-between h4\">\r\n                {showViewMoreButton && (\r\n                  <button\r\n                    onClick={() => history.push(`/hotel/${h.id}`)}\r\n                    className=\"btn btn-primary\"\r\n                  >\r\n                    Show more\r\n                  </button>\r\n                )}\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default SmallCard;\r\n",
+  "D:\\My items\\Dal\\Summer2022\\Serverless\\csci5410_group30\\client\\src\\admin\\userreport.js",
+  [],
+  {
+    "ruleId": "158",
+    "replacedBy": "159"
+  },
+  {
+    "ruleId": "160",
+    "replacedBy": "161"
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "163",
+    "line": 8,
+    "column": 3,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 8,
+    "endColumn": 23
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "166",
+    "line": 9,
+    "column": 3,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 9,
+    "endColumn": 14
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "167",
+    "line": 10,
+    "column": 3,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 10,
+    "endColumn": 24
+  },
+  {
+    "ruleId": "168",
+    "severity": 1,
+    "message": "169",
+    "line": 78,
+    "column": 7,
+    "nodeType": "170",
+    "messageId": "171",
+    "endLine": 81,
+    "endColumn": 8,
+    "fix": "172"
+  },
+  {
+    "ruleId": "173",
+    "severity": 1,
+    "message": "174",
+    "line": 89,
+    "column": 9,
+    "nodeType": "170",
+    "endLine": 89,
+    "endColumn": 67
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "175",
+    "line": 3,
+    "column": 23,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 34
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "175",
+    "line": 4,
+    "column": 23,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 4,
+    "endColumn": 34
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "175",
+    "line": 4,
+    "column": 23,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 4,
+    "endColumn": 34
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "176",
+    "line": 3,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 15
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "163",
+    "line": 8,
+    "column": 3,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 8,
+    "endColumn": 23
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "177",
+    "line": 2,
+    "column": 17,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "178",
+    "line": 4,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 4,
+    "endColumn": 24
+  },
+  {
+    "ruleId": "179",
+    "severity": 1,
+    "message": "180",
+    "line": 19,
+    "column": 6,
+    "nodeType": "181",
+    "endLine": 19,
+    "endColumn": 8,
+    "suggestions": "182"
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "183",
+    "line": 2,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 2,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "184",
+    "line": 3,
+    "column": 31,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 46
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "185",
+    "line": 13,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 13,
+    "endColumn": 23
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "186",
+    "line": 13,
+    "column": 25,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 13,
+    "endColumn": 41
+  },
+  {
+    "ruleId": "179",
+    "severity": 1,
+    "message": "187",
+    "line": 19,
+    "column": 6,
+    "nodeType": "181",
+    "endLine": 19,
+    "endColumn": 8,
+    "suggestions": "188"
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "189",
+    "line": 5,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 5,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "166",
+    "line": 9,
+    "column": 3,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 9,
+    "endColumn": 14
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "167",
+    "line": 10,
+    "column": 3,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 10,
+    "endColumn": 24
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "177",
+    "line": 2,
+    "column": 17,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "190",
+    "line": 3,
+    "column": 35,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 48
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "191",
+    "line": 13,
+    "column": 9,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 13,
+    "endColumn": 15
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "192",
+    "line": 16,
+    "column": 9,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 16,
+    "endColumn": 14
+  },
+  {
+    "ruleId": "168",
+    "severity": 1,
+    "message": "169",
+    "line": 21,
+    "column": 9,
+    "nodeType": "170",
+    "messageId": "171",
+    "endLine": 25,
+    "endColumn": 10,
+    "fix": "193"
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "194",
+    "line": 1,
+    "column": 8,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 1,
+    "endColumn": 13
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "195",
+    "line": 1,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 1,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "196",
+    "line": 2,
+    "column": 22,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "197",
+    "line": 3,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 22
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "198",
+    "line": 3,
+    "column": 24,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 38
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "177",
+    "line": 5,
+    "column": 20,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 5,
+    "endColumn": 29
+  },
+  {
+    "ruleId": "199",
+    "severity": 1,
+    "message": "200",
+    "line": 50,
+    "column": 15,
+    "nodeType": "170",
+    "endLine": 55,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "199",
+    "severity": 1,
+    "message": "200",
+    "line": 57,
+    "column": 15,
+    "nodeType": "170",
+    "endLine": 61,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "195",
+    "line": 1,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 1,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "196",
+    "line": 2,
+    "column": 22,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "197",
+    "line": 3,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 22
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "198",
+    "line": 3,
+    "column": 24,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 38
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "177",
+    "line": 4,
+    "column": 20,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 4,
+    "endColumn": 29
+  },
+  {
+    "ruleId": "199",
+    "severity": 1,
+    "message": "200",
+    "line": 52,
+    "column": 15,
+    "nodeType": "170",
+    "endLine": 56,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "199",
+    "severity": 1,
+    "message": "200",
+    "line": 58,
+    "column": 15,
+    "nodeType": "170",
+    "endLine": 62,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "195",
+    "line": 1,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 1,
+    "endColumn": 18
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "196",
+    "line": 2,
+    "column": 22,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "197",
+    "line": 3,
+    "column": 10,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 22
+  },
+  {
+    "ruleId": "162",
+    "severity": 1,
+    "message": "198",
+    "line": 3,
+    "column": 24,
+    "nodeType": "164",
+    "messageId": "165",
+    "endLine": 3,
+    "endColumn": 38
+  },
+  {
+    "ruleId": "199",
+    "severity": 1,
+    "message": "200",
+    "line": 18,
+    "column": 15,
+    "nodeType": "170",
+    "endLine": 22,
+    "endColumn": 17
+  },
+  {
+    "ruleId": "199",
+    "severity": 1,
+    "message": "200",
+    "line": 24,
+    "column": 15,
+    "nodeType": "170",
+    "endLine": 28,
+    "endColumn": 17
+  },
+  "no-native-reassign",
+  [
+    "201"
+  ],
+  "no-negated-in-lhs",
+  [
+    "202"
+  ],
+  "no-unused-vars",
+  "'CognitoUserAttribute' is defined but never used.",
+  "Identifier",
+  "unusedVar",
+  "'CognitoUser' is defined but never used.",
+  "'AuthenticationDetails' is defined but never used.",
+  "react/jsx-no-target-blank",
+  "Using target=\"_blank\" without rel=\"noreferrer\" (which implies rel=\"noopener\") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations",
+  "JSXOpeningElement",
+  "noTargetBlankWithoutNoreferrer",
+  {
+    "range": "203",
+    "text": "204"
+  },
+  "jsx-a11y/anchor-is-valid",
+  "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+  "'useDispatch' is defined but never used.",
+  "'login' is defined but never used.",
+  "'useEffect' is defined but never used.",
+  "'ToastContainer' is defined but never used.",
+  "react-hooks/exhaustive-deps",
+  "React Hook useEffect has a missing dependency: 'userid'. Either include it or remove the dependency array.",
+  "ArrayExpression",
+  [
+    "205"
+  ],
+  "'useStore' is defined but never used.",
+  "'isAlreadyBooked' is defined but never used.",
+  "'alreadyBooked' is assigned a value but never used.",
+  "'setAlreadyBooked' is assigned a value but never used.",
+  "React Hook useEffect has a missing dependency: 'loadHotel'. Either include it or remove the dependency array.",
+  [
+    "206"
+  ],
+  "'register' is defined but never used.",
+  "'decryptCipher' is defined but never used.",
+  "'userid' is assigned a value but never used.",
+  "'error' is assigned a value but never used.",
+  {
+    "range": "207",
+    "text": "204"
+  },
+  "'axios' is defined but never used.",
+  "'diffDays' is defined but never used.",
+  "'Link' is defined but never used.",
+  "'EditOutlined' is defined but never used.",
+  "'DeleteOutlined' is defined but never used.",
+  "jsx-a11y/img-redundant-alt",
+  "Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.",
+  "no-global-assign",
+  "no-unsafe-negation",
+  [
+    2184,
+    2184
+  ],
+  " rel=\"noreferrer\"",
+  {
+    "desc": "208",
+    "fix": "209"
+  },
+  {
+    "desc": "210",
+    "fix": "211"
+  },
+  [
+    667,
+    667
+  ],
+  "Update the dependencies array to be: [userid]",
+  {
+    "range": "212",
+    "text": "213"
+  },
+  "Update the dependencies array to be: [loadHotel]",
+  {
+    "range": "214",
+    "text": "215"
+  },
+  [
+    573,
+    575
+  ],
+  "[userid]",
+  [
+    685,
+    687
+  ],
+  "[loadHotel]"
+]
