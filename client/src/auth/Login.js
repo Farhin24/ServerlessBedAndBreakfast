@@ -71,8 +71,8 @@ const Login = ({ history }) => {
             type: "LOGGED_IN_USER",
             payload: result,
           });
-          toast.success("Logged In");
-          history.push("/");
+          //toast.success("Logged In");
+          history.push("/securityquestion");
         },
         onFailure: function (err) {
           toast.error("Login failed");
