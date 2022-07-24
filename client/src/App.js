@@ -20,6 +20,7 @@ import CeaserCipher from "./auth/CeaserCipher";
 import Feedback from "./user/feedback";
 import LexChat from "react-lex-plus";
 import { useDispatch } from "react-redux";
+import UserReport from "./admin/userreport";
 
 function App() {
   const dispatch = useDispatch();
@@ -83,6 +84,7 @@ function App() {
           <Route exact path="/register" component={Register} />
           <Route exact path="/graph" component={Graph} />
           <Route exact path="/cipher" component={CeaserCipher} />
+          <Route exact path="/admin/userreport" component={UserReport} />
           <Route exact path="/securityquestion" component={Securityquestion} />
           <PrivateRoute exact path="/dashboard" component={Dashboard} />
           <PrivateRoute exact path="/notifications" component={Notifications} />

@@ -87,6 +87,9 @@ const TopNav = () => {
       >
         Visualization
       </a>
+      <Link className="nav-link" to="/admin/userreport">
+        User Report
+      </Link>
 
       {auth !== null && (
         <a className="nav-link pointer" href="#" onClick={logout}>
