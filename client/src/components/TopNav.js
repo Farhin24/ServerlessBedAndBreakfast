@@ -79,10 +79,11 @@ const TopNav = () => {
           Visualization
         </Link>
       )}
-      <Link className="nav-link" to="/admin/userreport">
-        User Report
-      </Link>
-
+      {auth !== null && (
+        <Link className="nav-link" to="/admin/userreport">
+          User Report
+        </Link>
+      )}
       {auth !== null && (
         <a className="nav-link pointer" href="#" onClick={logout}>
           Logout

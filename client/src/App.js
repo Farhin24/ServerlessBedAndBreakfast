@@ -19,6 +19,7 @@ import Feedback from "./user/feedback";
 import { useDispatch } from "react-redux";
 import Visualizations from "./auth/Visualization";
 import UserReport from "./admin/userreport";
+import SuggestmeTour from "./user/suggestmeTour";
 
 function App() {
   const dispatch = useDispatch();
@@ -43,6 +44,7 @@ function App() {
           <Route exact path="/register" component={Register} />
           <Route exact path="/graph" component={Graph} />
           <Route exact path="/cipher" component={CeaserCipher} />
+          <Route exact path="/suggesttour" component={SuggestmeTour} />
           <Route exact path="/admin/userreport" component={UserReport} />
           <Route exact path="/securityquestion" component={Securityquestion} />
           <Route exact path="/notifications" component={Notifications} />
